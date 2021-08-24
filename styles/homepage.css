@@ -1,0 +1,549 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+@font-face {
+  font-family: bariol_bold;
+  src: url(/Fonts/titulos/bariol_bold_italic-webfont.ttf);
+}
+
+@font-face {
+  font-family: bariol_bold-webfont;
+  src: url(/Fonts/bariol_bold-webfont.ttf);
+}
+
+@font-face {
+  font-family: bariol_light-webfont;
+  src: url(/Fonts/bariol_light-webfont.ttf);
+}
+
+@font-face {
+  font-family: bariol_light_italic-webfont;
+  src: url(/Fonts/bariol_light_italic-webfont.ttf);
+}
+
+@font-face {
+  font-family: bariol_regular-webfont;
+  src: url(/Fonts/bariol_regular-webfont.ttf);
+}
+
+@font-face {
+  font-family: bariol_regular_italic-webfont;
+  src: url(/Fonts/bariol_regular_italic-webfont.ttf);
+}
+
+@font-face {
+  font-family: bariol_thin-webfont;
+  src: url(/Fonts/bariol_thin-webfont.ttf);
+}
+
+@font-face {
+  font-family: bariol_thin_italic-webfont;
+  src: url(/Fonts/bariol_thin_italic-webfont.ttf);
+}
+
+.franja1 {
+  background-image: url("/imgs/homepage/Primeraparteniñas_page-0001.jpg");
+  background-size: cover;
+  background-size: cover;
+  background-size: cover;
+  height: 900px;
+}
+
+.franja1 .logoceleste {
+  height: 500px;
+  width: 500px;
+  margin-top: -10%;
+}
+
+.soycentro {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.franja2 {
+  background-image: url("/imgs/homepage/franja2jpg.jpg");
+  height: 900px;
+  background-size: cover;
+  background-size: cover;
+  background-size: cover;
+}
+
+.franja2 .textosegundo h1 {
+  font-size: 300%;
+  font-family: bariol_bold-webfont;
+  padding-top: 195px;
+  padding-bottom: 0px;
+  position: relative;
+  color: white;
+}
+
+.franja2 .textosegundo p {
+  font-family: bariol_regular-webfont;
+  position: relative;
+  left: -10px;
+  margin-top: 15px;
+  color: white;
+  font-size: 28px;
+  width: 50%;
+}
+
+.franja2 .boton-quienes-somos {
+  background-color: #405884;
+  margin-top: 8%;
+  border-style: solid;
+  border-color: #405884;
+  width: 220px;
+  height: 60px;
+  border-radius: 800px;
+}
+
+.franja2 .boton-quienes-somos .letras {
+  color: white;
+  font-size: x-large;
+}
+
+.franja3 {
+  background-image: url("/imgs/homepage/Franaja3puntos.jpg");
+  background-size: cover;
+  background-size: cover;
+  background-size: cover;
+  height: 2000px;
+}
+
+.franja3 .texto1 h2 {
+  font-size: 300%;
+  font-family: bariol_bold-webfont;
+  padding-top: 195px;
+  padding-bottom: 0px;
+  position: relative;
+  color: white;
+}
+
+.franja3 .texto1 * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.franja3 .texto1 html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.franja3 .texto1 .imagen1 {
+  width: 100%;
+  height: 100%;
+}
+
+.franja3 .texto1 .contenedor {
+  width: 50%;
+  position: relative;
+  height: 40%;
+}
+
+.franja3 .texto1 .botones {
+  margin-top: 70%;
+  font-size: 60px;
+  font-family: bariol_bold-webfont;
+  width: 50px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  color: white;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.franja3 .texto1 .botones:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+.franja3 .texto1 .atras {
+  left: 0%;
+  top: calc(50% - 70%);
+}
+
+.franja3 .texto1 .adelante {
+  right: 0%;
+  top: calc(50% - 70%);
+}
+
+.franja3 .texto2 h2 {
+  font-size: 300%;
+  font-family: bariol_bold-webfont;
+  padding-top: 195px;
+  padding-bottom: 0px;
+  position: relative;
+  color: white;
+}
+
+.franja3 .texto2 * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.franja3 .texto2 html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.franja3 .texto2 .imagen2 {
+  width: 100%;
+  height: 100%;
+}
+
+.franja3 .texto2 .contenedor2 {
+  width: 50%;
+  position: relative;
+  height: 40%;
+}
+
+.franja3 .texto2 .botones2 {
+  margin-top: 70%;
+  font-size: 60px;
+  font-family: bariol_bold-webfont;
+  width: 50px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  color: white;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.franja3 .texto2 .botones2:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+.franja3 .texto2 .atras2 {
+  left: 0%;
+  top: calc(50% - 70%);
+}
+
+.franja3 .texto2 .adelante2 {
+  right: 0%;
+  top: calc(50% - 70%);
+}
+
+@media (max-width: 500px) {
+  .franja1 {
+    background-image: url("/imgs/homepage/Primeraparteniñas_page-0001.jpg");
+    background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    height: 800px;
+  }
+  .franja2 {
+    background-image: url("../imgs/DiseñosKey/segundafranjaquienesomos.jpg");
+    height: 800px;
+    width: 500px;
+    background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    width: 50%;
+  }
+  .franja2 .textosegundo h1 {
+    font-size: 500%;
+    font-family: bariol_bold-webfont;
+    position: relative;
+    color: white;
+  }
+  .franja2 .textosegundo p {
+    padding-right: 0px;
+    padding-bottom: 0px;
+    color: white;
+    font-size: 25px;
+    width: 50%;
+    text-align: justify;
+  }
+  .franja2 .boton-quienes-somos {
+    background-color: #405884;
+    margin-top: 0%;
+    width: 300px;
+    height: 100px;
+    border-radius: 800px;
+  }
+  .franja2 .boton-quienes-somos .letras {
+    color: white;
+  }
+}
+
+.Paginas a {
+  text-decoration: none;
+  display: none;
+}
+
+.Lineas {
+  position: fixed;
+  z-index: 10;
+  top: 30px;
+  right: 30px;
+  margin-right: 70px;
+  width: 35px;
+  height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  cursor: pointer;
+}
+
+.Lineas span {
+  height: 4px;
+  width: 100%;
+  background: white;
+  display: block;
+  border-radius: 3px;
+}
+
+.Contenedor.abrir .Paginas {
+  position: fixed;
+  top: 20px;
+  right: -30px;
+  margin-right: 90px;
+  position: fixed;
+  right: 0;
+  width: 30vw;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+  transition: -webkit-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+  transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+  border: 2px solid white;
+  width: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: left;
+      align-content: left;
+  text-align: center;
+  background-color: #449CAD;
+  border-radius: 5px;
+}
+
+.Contenedor.abrir .Paginas a:hover {
+  background-color: rgba(155, 155, 155, 0.74);
+  font-style: center;
+  width: 195px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.Contenedor.abrir .Paginas .expander {
+  background-color: 7CC0A8;
+  width: 194px;
+  height: 40px;
+  border-bottom: 1px solid black;
+}
+
+.Contenedor.abrir .Paginas .All {
+  background-color: 7CC0A8;
+  width: 194px;
+  border-bottom: 1px solid black;
+}
+
+.Contenedor.abrir .Paginas a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  font-size: 29px;
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 530px) {
+  .Paginas a {
+    text-decoration: none;
+    display: none;
+  }
+  .Lineas {
+    position: fixed;
+    z-index: 10%;
+    top: 30px;
+    right: 30px;
+    margin-right: 70px;
+    width: 35px;
+    height: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    cursor: pointer;
+  }
+  .Lineas span {
+    height: 4px;
+    width: 100%;
+    background: white;
+    display: block;
+    border-radius: 3px;
+  }
+  .Contenedor.abrir .Paginas {
+    position: fixed;
+    top: 20px;
+    right: -30px;
+    margin-right: 90px;
+    position: fixed;
+    right: 0;
+    width: 30vw;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+    transition: -webkit-transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+    transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+    border: 2px solid white;
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: left;
+        align-content: left;
+    text-align: center;
+    background-color: #449CAD;
+    border-radius: 5px;
+  }
+  .Contenedor.abrir .Paginas a:hover {
+    background-color: rgba(155, 155, 155, 0.74);
+    font-style: center;
+    width: 195px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .Contenedor.abrir .Paginas .expander {
+    background-color: 7CC0A8;
+    width: 194px;
+    height: 40px;
+    border-bottom: 1px solid black;
+  }
+  .Contenedor.abrir .Paginas .All {
+    background-color: 7CC0A8;
+    width: 194px;
+    border-bottom: 1px solid black;
+  }
+  .Contenedor.abrir .Paginas a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    font-size: 29px;
+    color: white;
+    text-align: center;
+  }
+  .franja1 {
+    background-image: url("/imgs/homepage/Primeraparteniñas_page-0001.jpg ");
+    background-size: cover;
+    height: 50%;
+    width: 100%;
+  }
+  .franja1 .logoceleste {
+    display: none;
+  }
+  .franja1 .logocelesteh1 {
+    background-image: url("/imgs/homepage/LOGO.svg");
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 400px;
+    margin: -1%;
+  }
+  .franja2 {
+    background-image: url("/imgs/homepage/franja2jpg.jpg");
+    background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    margin-top: 1%;
+    height: 50%;
+  }
+  .franja2 .textosegundo h1 {
+    font-size: 300%;
+    font-family: bariol_bold-webfont;
+    padding-top: 195px;
+    padding-bottom: 0px;
+    position: relative;
+    color: white;
+  }
+  .franja2 .textosegundo p {
+    font-family: bariol_regular-webfont;
+    position: relative;
+    left: -10px;
+    margin-top: 15px;
+    color: white;
+    font-size: 28px;
+    width: 50%;
+  }
+  .franja2 .boton-quienes-somos {
+    background-color: #405884;
+    margin-top: 8%;
+    border-style: solid;
+    border-color: #405884;
+    width: 220px;
+    height: 60px;
+    border-radius: 800px;
+  }
+  .franja2 .boton-quienes-somos .letras {
+    color: white;
+    font-size: x-large;
+  }
+}
+/*# sourceMappingURL=homepage.css.map */

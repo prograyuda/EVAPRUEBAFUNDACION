@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+  body{
+  margin: 0%;
+  padding: 0%;
+  
+  }
+  
+  .header{
+  
+      background-image: url("/imgs/imgstestimonios/headerteestimonios.jpg" );
+      background-repeat: no-repeat;
+      background-size: cover;
+   background-size: cover;
+     background-size: cover;
+  height: 300px;
+
+  .logoceleste{
+  
+    height: 500px;
+    width: 500px;
+    margin-top: -10%;
+  }
+
+
+  }
+  
+  .franja1{
+ background-image: url("/imgs/imgstestimonios/fondofranja1.jpg");
+  height: 1350px;
+  background-size: cover;
+  background-size: cover;
+    background-size: cover;
+  .imagenninos{
+    position:absolute;
+    height: 1300px;
+    width: 1300px;
+    left: 100px;
+
+
+
+    }
+    //Charlie
+    .nombre1{
+      h5{
+      color: white;
+      margin-left: 27%;
+            padding-top: 600px;
+       padding-bottom: 5px;
+       position:absolute;
+       font-size:2em;
+
+      }
+          
+  }
+// lucia
+  .nombre2{
+    h5{
+    color: white;
+    margin-left: 720px;
+          padding-top: 600px;
+     padding-bottom: 5px;
+     position:absolute;
+     font-size:2em;
+    }
+}
+
+
+}
+        
+        
+  
+
+  // background-repeat: no-repeat;
+  
+  // height: 200px;
+  // width: 1000px;micro
+  
+      
+              //fin de boton ver mas
+              
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media(max-width:500px){
+    
+  
+  
+  
+  
+  
+   }
+  
+  
+  
+  
+  
+  //Curtain Menu/ham-icon
+  .Paginas{
+    a{
+  text-decoration: none;
+  display: none;
+    }
+  
+  
+  }
+  
+  
+  .Lineas{
+  position: fixed;
+  z-index: 10;
+  top: 30px;
+  right: 30px;
+    margin-right: 70px;
+      width: 35px;
+      height: 25px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      cursor: pointer;
+  
+        span{
+       height: 4px;
+        width: 100%;
+        background:white;
+        display: block;
+        border-radius: 3px;
+        }
+       
+      }
+  
+  .Contenedor.abrir{
+    .Paginas{
+      position: fixed;
+      //z-index: 10;
+     top: 20px;
+     right: -30px;
+         margin-right: 90px;
+        // margin-top: -10px;
+      position: fixed;
+     //top: -10000;
+       right: 0;
+       width: 30vw;
+       height: 100%;
+      // background-image: linear-gradient(to right, #434343 0%, black 100%);
+     //  background-color:#449CAD ;
+       display: flex;
+       flex-direction:column;
+       justify-content: space-evenly;
+       align-items: center;
+       transition:transform .3s ease-in-out;
+      // transform: translate(110%);
+      // box-shadow: 0 0 6px rgb(14, 13, 13);
+      //
+        border: 2px solid white;
+        width: 200px;
+        //padding-top: 120px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: left;
+        text-align: center;
+        background-color: #449CAD;
+        border-radius: 5px;
+        a:hover{
+          background-color:gray;
+          width: 80%;
+  padding:-1px;
+  padding-left: 33px;
+          align-items: center;
+        border-bottom: black 2px;
+       
+        text-align: center;
+          }
+        .expander{
+          background-color:7CC0A8;
+          width: 194px;
+          height: 40px;
+          border-bottom:  1px solid black;
+  
+        }
+        .All{
+          background-color:7CC0A8;
+          width: 194px;
+          //height: 50px;
+       
+          
+  border-bottom:  1px solid black;
+  
+  
+        }
+    
+        a {
+          display: flex;
+          padding-top: 5px;
+          padding-bottom: 5px;
+         // padding-left: 1px;
+      text-decoration:none ;
+      font-size: 29px;
+      color: rgb(255, 255, 255);
+      text-align: center;
+  
+      }
+     
+      }  
+    }
+      
+   
+  
+  
+  
+  //fin Curtain Menu
+  
+  
+  
+  
+  
+  
+  
+  
+  // responsive de 320
+  @media (max-width:320px){
+      
+  
+  
+    }
+    //fin del media 320
+  
+  
+  //inicio de media de 768
+    @media (max-width:768px){
+     
+  
+    }
+    //fin media de 728px
+  
+    // @media (max-width:1920px){
+    //   .foto{
+    //     height: 1000px;
+    //     width: 2000px;
+    //     }
+  
+    // }
+  
+    
+  //media landscape
+    @media (orientation: landscape) {
+  
+  
+  
+    }
+    //fin del landspace
+  
