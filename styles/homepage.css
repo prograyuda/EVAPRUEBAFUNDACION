@@ -50,7 +50,7 @@ body {
 }
 
 .franja1 {
-  background-image: url("imgs/homepage/Primeraparteniñas_page-0001.jpg");
+  background-image: url(".imgs/homepage/Primeraparteniñas_page-0001.jpg");
   background-size: cover;
   background-size: cover;
   background-size: cover;
@@ -70,7 +70,7 @@ body {
 }
 
 .franja2 {
-  background-image: url("imgs/homepage/franja2jpg.jpg");
+  background-image: url(".imgs/homepage/franja2jpg.jpg");
   height: 900px;
   background-size: cover;
   background-size: cover;
@@ -112,7 +112,7 @@ body {
 }
 
 .franja3 {
-  background-image: url("imgs/homepage/Franaja3puntos.jpg");
+  background-image: url(".imgs/homepage/Franaja3puntos.jpg");
   background-size: cover;
   background-size: cover;
   background-size: cover;
