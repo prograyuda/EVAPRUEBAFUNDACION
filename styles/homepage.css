@@ -52,8 +52,8 @@ background-color: #449CAD;
 }
 
 .franja1 {
-  /* background-image: url("EVAPRUEBAFUNDACION/imgs/homepage/Primeraparteniñas_page-0001.jpg"); */
-background-image: url("https://drive.google.com/file/d/1jXGLpdIGqWjBg-shfXundfuJY2OMEFju/view");
+  background-image: url("/imgs/homepage/Primeraparteniñas_page-0001.jpg");
+
   background-size: cover;
   background-size: cover;
   background-size: cover;
@@ -73,7 +73,7 @@ background-image: url("https://drive.google.com/file/d/1jXGLpdIGqWjBg-shfXundfuJ
 }
 
 .franja2 {
-  background-image: url("EVAPRUEBAFUNDACION/imgs/homepage/franja2jpg.jpg");
+  background-image: url("/imgs/homepage/franja2jpg.jpg");
   height: 900px;
   background-size: cover;
   background-size: cover;
