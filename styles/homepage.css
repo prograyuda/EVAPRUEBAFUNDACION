@@ -7,53 +7,50 @@
 body {
   margin: 0%;
   padding: 0%;
-background-color: #449CAD;
 }
-
 
 @font-face {
   font-family: bariol_bold;
-  src: url(Fonts/titulos/bariol_bold_italic-webfont.ttf);
+  src: url(/Fonts/titulos/bariol_bold_italic-webfont.ttf);
 }
 
 @font-face {
   font-family: bariol_bold-webfont;
-  src: url(Fonts/bariol_bold-webfont.ttf);
+  src: url(/Fonts/bariol_bold-webfont.ttf);
 }
 
 @font-face {
   font-family: bariol_light-webfont;
-  src: url(Fonts/bariol_light-webfont.ttf);
+  src: url(/Fonts/bariol_light-webfont.ttf);
 }
 
 @font-face {
   font-family: bariol_light_italic-webfont;
-  src: url(Fonts/bariol_light_italic-webfont.ttf);
+  src: url(/Fonts/bariol_light_italic-webfont.ttf);
 }
 
 @font-face {
   font-family: bariol_regular-webfont;
-  src: url(Fonts/bariol_regular-webfont.ttf);
+  src: url(/Fonts/bariol_regular-webfont.ttf);
 }
 
 @font-face {
   font-family: bariol_regular_italic-webfont;
-  src: url(Fonts/bariol_regular_italic-webfont.ttf);
+  src: url(/Fonts/bariol_regular_italic-webfont.ttf);
 }
 
 @font-face {
   font-family: bariol_thin-webfont;
-  src: url(Fonts/bariol_thin-webfont.ttf);
+  src: url(/Fonts/bariol_thin-webfont.ttf);
 }
 
 @font-face {
   font-family: bariol_thin_italic-webfont;
-  src: url(Fonts/bariol_thin_italic-webfont.ttf);
+  src: url(/Fonts/bariol_thin_italic-webfont.ttf);
 }
 
 .franja1 {
-  background-image: url("/imgs/homepage/Primeraparteninas.jpg");
-  /* background-image: url("") */
+  background-image: url("https://lh3.googleusercontent.com/A4NiMaEM6-IU_oS3EQanPspDKwLXsFgiTDlKrUcx3rB1PTKZ0hDg27-zvdma_4sIGjyw-h-tbD67c9sgUqs4uGcmkWbdsTmMCDTXZgwsYyjbeXOpyLKgy6rBZqZg3ZfYYpI3Cl03kiW4c47UuY3pZ90dFNesIEwADIntYO--k5jmeCGNt4GQyuWezRfzoZ9QubEHWXqPGXOP_MIevd2jCLYOnzVQlprYVkG1vWyntXYzRF_DnEUJ6nQGjP4O3mlbUddXUEmirygZ7_R8F1J1FfeG61zn6fFM5FzUknjHGg4uNgt9TwvSSr-auyhyh1f6JxvDeGReTygrvTFulREp9cUqYJUrFJlcl2hVzoVniCC0lVFJVUDKtBKii_6Z_ZY42WHS2ncYOxr5Rp0mdRrrySvh2P8uOyQmI1qjuQZzF7oEbV81VJcJofWEAY8y-73JybEpPTRx9GQpSxxqTArRlz0Qrd81m80y0LlI-azt40XeVPptplNtgCAXtk777I1zqrVqy_Nt6JjyENOLEjTuWuJ92DnIt-IP5oSL0fZ8UBKGh3ENfhD63IdV7T7nLT1A_TLim_z627dEhlVJDCbWzhp9qaXEer0bWW_eTQBfVD9o8U9fyKNsBwLz1v4_MUJ3_0qj4ocgXxo5weSAEBzhpFBDsU_s3NNPwzZ9OjPpnFQFyPgy03GQ943dUQGwoKBB8QHRAZYZ9o_T3Rk5qRNtOw=w1002-h568-no?authuser=3");
   background-size: cover;
   background-size: cover;
   background-size: cover;
@@ -240,14 +237,14 @@ background-color: #449CAD;
 
 @media (max-width: 500px) {
   .franja1 {
-    background-image: url("imgs/homepage/Primeraparteniñas_page-0001.jpg");
+    background-image: url("/imgs/homepage/Primeraparteniñas_page-0001.jpg");
     background-size: cover;
     background-size: cover;
     background-size: cover;
     height: 800px;
   }
   .franja2 {
-    background-image: url("imgs/DiseñosKey/segundafranjaquienesomos.jpg");
+    background-image: url("../imgs/DiseñosKey/segundafranjaquienesomos.jpg");
     height: 800px;
     width: 500px;
     background-size: cover;
