@@ -42,10 +42,11 @@
     src: url(/Fonts/bariol_thin_italic-webfont.ttf);
   }
   .franja1{
-    .franja1img{
- 
+    background-image: url("/wpimages/homepage/Primeraparteninas.jpg");
   height: 900px;
-    }
+  background-size: cover;
+  background-size: cover;
+    background-size: cover;
   
   .logoceleste{
   
@@ -67,7 +68,7 @@
 
   
   .franja2{
-   background-image: url("/imgs/homepage/franja2jpg.jpg");
+   background-image: url("/wpimages/homepage/franja2jpg.jpg");
   height: 900px;
   background-size: cover;
   background-size: cover;
@@ -130,7 +131,7 @@
 
 
 .franja3{
-    background-image: url("/imgs/homepage/Franaja3puntos.jpg");
+    background-image: url("/wpimages/homepage/Franaja3puntos.jpg");
     background-size: cover;
     background-size: cover;
       background-size: cover;
@@ -282,7 +283,7 @@
   @media(max-width:500px){
     .franja1{
   
-      background-image: url("/imgs/homepage/Primeraparteniñas_page-0001.jpg");
+      background-image: url("/wpimages/homepage/Primeraparteniñas_page-0001.jpg");
       background-size: cover;
    background-size: cover;
      background-size: cover;
@@ -292,7 +293,7 @@
   }
   
   .franja2{
-   background-image: url("../imgs/DiseñosKey/segundafranjaquienesomos.jpg");
+   background-image: url("../wpimages/DiseñosKey/segundafranjaquienesomos.jpg");
   height: 800px;
   width: 500px;
   background-size: cover;
@@ -606,7 +607,7 @@
   
   .franja1{
   
-    background-image: url("/imgs/homepage/Primeraparteniñas_page-0001.jpg ");
+    background-image: url("/wpimages/homepage/Primeraparteniñas_page-0001.jpg ");
 background-size: cover;
 height: 50%;
 width: 100%;
@@ -614,7 +615,7 @@ width: 100%;
   display: none;
 }
 .logocelesteh1{
-background-image:url("/imgs/homepage/LOGO.svg") ;
+background-image:url("/wpimages/homepage/LOGO.svg") ;
 background-repeat: no-repeat;
 height: 600px;
   width: 400px;
@@ -625,7 +626,7 @@ margin: -1%;
 }
 
 .franja2{
-background-image:url("/imgs/homepage/franja2jpg.jpg");
+background-image:url("/wpimages/homepage/franja2jpg.jpg");
  background-size: cover;
  background-size: cover;
    background-size: cover;
