@@ -49,10 +49,7 @@ body {
   src: url(/Fonts/bariol_thin_italic-webfont.ttf);
 }
 
-.franja1 {
-  background-image:url(/Primeraparteninas.jpg);
-  background-size: cover;
-  background-size: cover;
+.franja1 .franja1img {
   height: 900px;
 }
 
