@@ -1,4 +1,4 @@
-var imagenes = ['/imgs/homepage/Illustracion pag web02.png', '/imgs/homepage/illustracion pag web04.png', '/imgs/homepage/illustración pag web03.png'],
+var imagenes = ['/wpimages/homepage/Illustracion pag web02.png', '/wpimages/homepage/illustracion pag web04.png', '/wpimages/homepage/illustración pag web03.png'],
 cont = 0; 
 function carrousel (contenedor){
     console.log("funcion carrusel1");

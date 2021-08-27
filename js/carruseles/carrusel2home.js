@@ -1,5 +1,5 @@
 //Segundo carrusel
-var imagenes = ['/imgs/homepage/Illustracion pag web02.png', '/imgs/homepage/illustracion pag web04.png', '/imgs/homepage/illustración pag web03.png'],
+var imagenes2 = ['/wpimages/homepage/Illustracion pag web02.png', '/wpimages/homepage/illustracion pag web04.png', '/wpimages/homepage/illustración pag web03.png'],
 cont = 0; 
 function carrousel2 (contenedor2){
     console.log("funcion carrusel 2");
@@ -11,7 +11,7 @@ tgt = f.target;
 
 if(tgt== atras2){
 if(cont> 0){
-    img.src=imagenes2[cont-1];
+    img.src=image1nes2[cont-1];
     cont--;
 }else{
     img.src=imagenes2[imagenes.length -1];
