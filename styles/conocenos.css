@@ -132,7 +132,7 @@ height: 30%;
 /* fin menu */
 /* Inicio de logotipo */
 .franja10 {
-    background-image: url("/imgs/conocenos/conocenos-header1.jpg");
+    background-image: url("/wpimages/conocenos/conocenos-header1.jpg");
     background-size: cover;
     background-size: cover;
     background-size: cover;
@@ -148,7 +148,7 @@ height: 30%;
   /* inicio del body */
   /* gris */
   .gris {
-    background-image: url("/imgs/conocenos/conocenosbody1.jpg");
+    background-image: url("/wpimages/conocenos/conocenosbody1.jpg");
     background-size: cover;
     background-size: cover;
     background-size: cover;
@@ -196,7 +196,7 @@ height: 30%;
 }
 
 .gris .linea-gris{
-  background-image: url("/imgs/conocenos/header-body2.jpg");
+  background-image: url("/wpimages/conocenos/header-body2.jpg");
 height: 100px;
 background-size: cover;
 background-size: cover;
@@ -207,7 +207,7 @@ background-size: cover;
 
 /* gris oscuro */
 .gris-oscuro {
-    background-image: url("/imgs/conocenos/franja2cono.jpg");
+    background-image: url("/wpimages/conocenos/franja2cono.jpg");
     background-size: cover;
     background-size: cover;
     background-size: cover;
@@ -280,7 +280,7 @@ background-size: cover;
 }
 
 .gris-oscuro2 {
-    img
+    
     background-size: cover;
     background-size: cover;
     background-size: cover;
