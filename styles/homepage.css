@@ -380,5 +380,102 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
+  .Paginas a {
+    text-decoration: none;
+    display: none;
+  }
+  .Lineas {
+    position: fixed;
+    z-index: 10;
+    top: 30px;
+    right: 30px;
+    margin-right: 70px;
+    width: 35px;
+    height: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    cursor: pointer;
+  }
+  .Lineas span {
+    height: 4px;
+    width: 100%;
+    background: red;
+    display: block;
+    border-radius: 3px;
+  }
+  .Contenedor.abrir .Paginas {
+    position: fixed;
+    top: 20px;
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+    transition: -webkit-transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+    transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+    border: 2px solid white;
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: left;
+        align-content: left;
+    text-align: center;
+    background-color: #449CAD;
+    border-radius: 5px;
+  }
+  .Contenedor.abrir .Paginas a:hover {
+    background-color: rgba(155, 155, 155, 0.74);
+    font-style: center;
+    width: 195px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .Contenedor.abrir .Paginas .expander {
+    background-color: 7CC0A8;
+    width: 194px;
+    height: 40px;
+    border-bottom: 1px solid black;
+  }
+  .Contenedor.abrir .Paginas .All {
+    background-color: 7CC0A8;
+    width: 194px;
+    border-bottom: 1px solid black;
+  }
+  .Contenedor.abrir .Paginas a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    font-size: 29px;
+    color: white;
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=homepage.css.map */
