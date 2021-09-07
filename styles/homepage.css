@@ -3,10 +3,14 @@
   padding: 0;
 }
 
+:root {
+  --primary-color:#3B9BB1;
+}
+
 body {
   margin: 0%;
   padding: 0%;
-  background-color: #449CAD;
+  background-color: var(--primary-color);
 }
 
 @font-face {
@@ -49,24 +53,159 @@ body {
   src: url(/Fonts/bariol_thin_italic-webfont.ttf);
 }
 
+.navbar {
+  background-color: var(--primary-color);
+  color: #fff;
+  height: 70px;
+}
+
+.navbar .Paginas a {
+  text-decoration: none;
+  display: none;
+}
+
+.navbar .Lineas {
+  position: fixed;
+  z-index: 10;
+  top: 30px;
+  right: 30px;
+  margin-right: 70px;
+  width: 35px;
+  height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  cursor: pointer;
+}
+
+.navbar .Lineas span {
+  height: 4px;
+  width: 100%;
+  background: white;
+  display: block;
+  border-radius: 3px;
+}
+
+.navbar .Contenedor.abrir .Paginas {
+  position: fixed;
+  top: 20px;
+  right: -30px;
+  margin-right: 90px;
+  position: fixed;
+  right: 0;
+  width: 30vw;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+  transition: -webkit-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+  transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+  border: 2px solid white;
+  width: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: left;
+      align-content: left;
+  text-align: center;
+  background-color: #449CAD;
+  border-radius: 5px;
+}
+
+.navbar .Contenedor.abrir .Paginas a:hover {
+  background-color: rgba(155, 155, 155, 0.74);
+  font-style: center;
+  width: 195px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.navbar .Contenedor.abrir .Paginas .expander {
+  background-color: var(--primary-color);
+  width: 194px;
+  height: 40px;
+  border-bottom: 1px solid black;
+}
+
+.navbar .Contenedor.abrir .Paginas .All {
+  background-color: 7CC0A8;
+  width: 194px;
+  border-bottom: 1px solid black;
+}
+
+.navbar .Contenedor.abrir .Paginas a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  font-size: 29px;
+  color: white;
+  text-align: center;
+}
+
+.navbar .flex {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.logoceleste {
+  margin-top: 100px;
+  height: 400px;
+  width: 400px;
+}
+
 .franja1 {
   background-image: url("/wpimages/homepage/Primeraparteninas.jpg");
   height: 900px;
   background-size: cover;
   background-size: cover;
   background-size: cover;
-}
-
-.franja1 .logoceleste {
-  height: 500px;
-  width: 500px;
-  margin-top: -10%;
-}
-
-.soycentro {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .franja2 {
@@ -235,116 +374,7 @@ body {
   top: calc(50% - 70%);
 }
 
-.Paginas a {
-  text-decoration: none;
-  display: none;
-}
-
-.Lineas {
-  position: fixed;
-  z-index: 10;
-  top: 30px;
-  right: 30px;
-  margin-right: 70px;
-  width: 35px;
-  height: 25px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  cursor: pointer;
-}
-
-.Lineas span {
-  height: 4px;
-  width: 100%;
-  background: white;
-  display: block;
-  border-radius: 3px;
-}
-
-.Contenedor.abrir .Paginas {
-  position: fixed;
-  top: 20px;
-  right: -30px;
-  margin-right: 90px;
-  position: fixed;
-  right: 0;
-  width: 30vw;
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-transition: -webkit-transform .3s ease-in-out;
-  transition: -webkit-transform .3s ease-in-out;
-  transition: transform .3s ease-in-out;
-  transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
-  border: 2px solid white;
-  width: 200px;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-line-pack: left;
-      align-content: left;
-  text-align: center;
-  background-color: #449CAD;
-  border-radius: 5px;
-}
-
-.Contenedor.abrir .Paginas a:hover {
-  background-color: rgba(155, 155, 155, 0.74);
-  font-style: center;
-  width: 195px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-}
-
-.Contenedor.abrir .Paginas .expander {
-  background-color: 7CC0A8;
-  width: 194px;
-  height: 40px;
-  border-bottom: 1px solid black;
-}
-
-.Contenedor.abrir .Paginas .All {
-  background-color: 7CC0A8;
-  width: 194px;
-  border-bottom: 1px solid black;
-}
-
-.Contenedor.abrir .Paginas a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  text-decoration: none;
-  font-size: 29px;
-  color: white;
-  text-align: center;
-}
-
+/* Navbar */
 @media (max-width: 768px) {
   .franja1 {
     background-image: url("/wpimages/homepage/Primeraparteninas.jpg");
@@ -366,33 +396,16 @@ body {
 }
 
 @media (max-width: 500px) {
-  .franja1 {
-    background-image: url("/wpimages/homepage/Primeraparteninas.jpg");
-    height: auto;
-    background-size: cover;
+  .navbar {
+    background-color: var(--primary-color);
+    color: #fff;
+    height: 70px;
   }
-  .franja1 .logo {
-    margin-top: -75px;
-  }
-  .franja1 .logo .logoceleste {
-    height: 300px;
-    width: 200px;
-    justify-self: flex-end;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .soycentro {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .Paginas a {
+  .navbar .Paginas a {
     text-decoration: none;
     display: none;
   }
-  .Lineas {
+  .navbar .Lineas {
     position: fixed;
     z-index: 10;
     top: 30px;
@@ -412,14 +425,25 @@ body {
             flex-direction: column;
     cursor: pointer;
   }
-  .Lineas span {
+  .navbar .Lineas span {
     height: 4px;
     width: 100%;
-    background: red;
+    background: white;
     display: block;
     border-radius: 3px;
   }
-  .Contenedor.abrir .Paginas {
+  .navbar .Contenedor.abrir .Paginas {
+    position: fixed;
+    top: 20px;
+    right: -30px;
+    margin-right: 90px;
+    position: fixed;
+    right: 0;
+    width: 30vw;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -437,8 +461,6 @@ body {
     border: 2px solid white;
     width: 200px;
     height: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
     -webkit-box-pack: justify;
@@ -450,7 +472,7 @@ body {
     background-color: #449CAD;
     border-radius: 5px;
   }
-  .Contenedor.abrir .Paginas a:hover {
+  .navbar .Contenedor.abrir .Paginas a:hover {
     background-color: rgba(155, 155, 155, 0.74);
     font-style: center;
     width: 195px;
@@ -459,18 +481,18 @@ body {
             align-items: center;
     text-align: center;
   }
-  .Contenedor.abrir .Paginas .expander {
-    background-color: 7CC0A8;
+  .navbar .Contenedor.abrir .Paginas .expander {
+    background-color: var(--primary-color);
     width: 194px;
     height: 40px;
     border-bottom: 1px solid black;
   }
-  .Contenedor.abrir .Paginas .All {
+  .navbar .Contenedor.abrir .Paginas .All {
     background-color: 7CC0A8;
     width: 194px;
     border-bottom: 1px solid black;
   }
-  .Contenedor.abrir .Paginas a {
+  .navbar .Contenedor.abrir .Paginas a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -480,6 +502,50 @@ body {
     font-size: 29px;
     color: white;
     text-align: center;
+  }
+  .navbar .flex {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+  .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100%;
+  }
+  .logoceleste {
+    margin-top: 100px;
+    height: 400px;
+    width: 400px;
+  }
+  .franja1 {
+    background-image: url("/wpimages/homepage/Primeraparteninas.jpg");
+    height: auto;
+    background-size: cover;
+  }
+  .franja1 .logo {
+    margin-top: -75px;
+  }
+  .franja1 .logo .logoceleste {
+    height: 300px;
+    width: 200px;
+    justify-self: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 /*# sourceMappingURL=homepage.css.map */
