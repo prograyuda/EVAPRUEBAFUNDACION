@@ -367,7 +367,8 @@ body {
 
 @media (max-width: 500px) {
   .franja1 {
-    background-image: url("/wpimages/homepage/indexresponsibeCELULAR/franja1.jpg");
+    background-image: url("/wpimages/homepage/Primeraparteninas.jpg");
+    height: auto;
     background-size: cover;
   }
   .franja1 .logoceleste {
@@ -412,12 +413,6 @@ body {
     border-radius: 3px;
   }
   .Contenedor.abrir .Paginas {
-    position: fixed;
-    top: 20px;
-    position: fixed;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -435,6 +430,8 @@ body {
     border: 2px solid white;
     width: 200px;
     height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
     -webkit-box-pack: justify;
