@@ -525,13 +525,24 @@ body {
   }
 }
 
-@media only screen and (max-width: 768px) and (min-width: 320px) {
+@media only screen and (max-width: 760px) and (min-width: 320px) {
   .franja1 {
     background-image: url("/wpimages/homepage/Primeraparteninas.jpg");
-    height: auto;
+    height: 100%;
+    width: 100%;
     background-size: cover;
     background-size: cover;
     background-size: cover;
+  }
+  .franja1 .logoceleste {
+    display: none;
+  }
+  .franja1 .logocelesteh1 {
+    background-image: url("/wpimages/homepage/LOGO.svg");
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 400px;
+    left: 50%;
   }
   .soycentro {
     -webkit-box-align: center;
