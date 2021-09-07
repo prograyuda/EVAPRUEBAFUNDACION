@@ -371,9 +371,14 @@ body {
     height: auto;
     background-size: cover;
   }
-  .franja1 .logoceleste {
+  .franja1 .logo .logoceleste {
     height: 300px;
-    width: 300px;
+    width: 200px;
+    justify-self: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .soycentro {
     -webkit-box-align: center;

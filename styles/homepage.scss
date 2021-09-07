@@ -437,14 +437,18 @@ height: auto ;
   background-size: cover;
     // background-size: cover;
  
-    
+  .logo{
+
+  
     .logoceleste{
-    
+     
+      
       height: 300px;
-      width: 300px;
-    
+      width: 200px;
+      justify-self: flex-end;
+      flex-direction: column;
     }
-   
+  }
     
     }
     .soycentro{
