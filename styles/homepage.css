@@ -371,6 +371,9 @@ body {
     height: auto;
     background-size: cover;
   }
+  .franja1 .logo {
+    margin-top: -50px;
+  }
   .franja1 .logo .logoceleste {
     height: 300px;
     width: 200px;
