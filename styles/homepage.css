@@ -538,6 +538,7 @@ body {
   .franja1 {
     background-image: url("/wpimages/homepage/Primeraparteninas.jpg");
     height: 300px;
+    width: auto;
     background-size: cover;
   }
   .franja1 img {
