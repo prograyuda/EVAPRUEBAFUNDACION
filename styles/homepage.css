@@ -413,7 +413,7 @@ body {
     position: fixed;
     z-index: 10;
     top: 30px;
-    right: 30px;
+    right: -60px;
     margin-right: 70px;
     width: 35px;
     height: 25px;
@@ -530,9 +530,10 @@ body {
     height: 100%;
   }
   .logoceleste {
-    margin-top: 100px;
-    height: 400px;
-    width: 400px;
+    margin-top: 50px;
+    height: 200px;
+    width: 300px;
+    margin-left: -55px;
   }
   .franja1 {
     background-image: url("/wpimages/homepage/Primeraparteninas.jpg");
