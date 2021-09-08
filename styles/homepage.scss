@@ -188,6 +188,9 @@ width: 400px;
 // fin de header
 
   .franja1{
+    img{
+      display: none;
+    }
     background-image: url("/wpimages/homepage/Primeraparteninas.jpg");
   height: 900px;
   background-size: cover;
@@ -624,8 +627,11 @@ width: 400px;
 
 //header
     .franja1{
+      img{
+        display: none;
+      }
       background-image: url("/wpimages/homepage/Primeraparteninas.jpg");
-height: auto ;
+height: 300px;
   background-size: cover;
     // background-size: cover;
  

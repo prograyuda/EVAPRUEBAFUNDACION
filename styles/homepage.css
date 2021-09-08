@@ -208,6 +208,10 @@ body {
   background-size: cover;
 }
 
+.franja1 img {
+  display: none;
+}
+
 .franja2 {
   background-image: url("/wpimages/homepage/franja2jpg.jpg");
   height: 900px;
@@ -532,8 +536,11 @@ body {
   }
   .franja1 {
     background-image: url("/wpimages/homepage/Primeraparteninas.jpg");
-    height: auto;
+    height: 300px;
     background-size: cover;
+  }
+  .franja1 img {
+    display: none;
   }
   .franja1 .logo {
     margin-top: -75px;
