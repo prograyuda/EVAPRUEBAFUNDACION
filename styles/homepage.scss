@@ -654,7 +654,7 @@ margin-top: -75px;
     }
   
     .franja2{
-      background-image: url("/wpimages/homepage/franja2jpg.jpg");
+     // background-image: url("/wpimages/homepage/franja2jpg.jpg");
      
      height: 340px;
      width: auto;
@@ -717,6 +717,146 @@ margin-top: -75px;
                  }
                  //fin de boton ver mas
                  }
+//fin de franja 2
+
+.franja3{
+  background-image: url("/wpimages/homepage/Franaja3puntos.jpg");
+  background-size: cover;
+  background-size: cover;
+    background-size: cover;
+ height:900px;
+
+ .texto1{
+
+  h2{
+      font-size: 300%;
+      font-family:bariol_bold-webfont;
+    padding-top: 195px;
+  padding-bottom: 0px;
+  position: relative;
+  
+    color: white;
+  
+     }
+ //CARRUSEL1
+
+ * {
+  box-sizing: border-box;
+ // background-color: blue;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.imagen1 {
+  
+  width: 100%;
+  height: 100%;
+ // margin-top: 30%;
+ // margin-left: 20%;
+}
+.contenedor {
+  width: 50%;
+  position: relative;
+  height: 40%;
+}
+.botones {
+  margin-top: 70%;
+  font-size: 60px;
+  font-family:bariol_bold-webfont;
+  width: 50px;
+  height: 30px;
+ // line-height: 10%;
+  border-radius: 50%;
+  position: absolute;
+  color: white;
+ // box-shadow: 0 0 10px orange;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+  }
+}
+.atras {
+  left: 0%;
+  top: calc(50% - 70%);
+}
+.adelante {
+  right: 0%;
+  top: calc(50% - 70%);
+}
+//fin carusel1
+
+ }
+ .texto2{
+
+  h2{
+      font-size: 300%;
+      font-family:bariol_bold-webfont;
+    padding-top: 195px;
+  padding-bottom: 0px;
+  position: relative;
+  
+    color: white;
+  
+     }
+ //CARRUSEL2
+
+ * {
+  box-sizing: border-box;
+ // background-color: blue;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.imagen2 {
+  width: 100%;
+  height: 100%;
+ // margin-top: 30%;
+ // margin-left: 20%;
+}
+.contenedor2 {
+  width: 50%;
+  position: relative;
+  height: 40%;
+}
+.botones2 {
+  margin-top: 70%;
+  font-size: 60px;
+  font-family:bariol_bold-webfont;
+  width: 50px;
+  height: 30px;
+ // line-height: 10%;
+  border-radius: 50%;
+  position: absolute;
+  color: white;
+ // box-shadow: 0 0 10px orange;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+  }
+}
+.atras2 {
+  left: 0%;
+  top: calc(50% - 70%);
+}
+.adelante2 {
+  right: 0%;
+  top: calc(50% - 70%);
+}
+//fin carusel1
+
+ }
+
+
+
+}
+
+
 
 
 
