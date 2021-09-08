@@ -214,7 +214,8 @@ body {
 
 .franja2 {
   background-image: url("/wpimages/homepage/franja2jpg.jpg");
-  height: 900px;
+  height: 2000px;
+  min-height: 900px;
   background-size: cover;
   background-size: cover;
   background-size: cover;
@@ -555,6 +556,44 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .franja2 {
+    background-image: url("/wpimages/homepage/franja2jpg.jpg");
+    height: 340px;
+    width: auto;
+    background-size: cover;
+    background-size: cover;
+    background-size: cover;
+  }
+  .franja2 .textosegundo h1 {
+    font-size: 300%;
+    font-family: bariol_bold-webfont;
+    padding-top: 195px;
+    padding-bottom: 0px;
+    position: relative;
+    color: white;
+  }
+  .franja2 .textosegundo p {
+    font-family: bariol_regular-webfont;
+    position: relative;
+    left: -10px;
+    margin-top: 15px;
+    color: white;
+    font-size: 28px;
+    width: 50%;
+  }
+  .franja2 .boton-quienes-somos {
+    background-color: #405884;
+    margin-top: 8%;
+    border-style: solid;
+    border-color: #405884;
+    width: 220px;
+    height: 60px;
+    border-radius: 800px;
+  }
+  .franja2 .boton-quienes-somos .letras {
+    color: white;
+    font-size: x-large;
   }
 }
 /*# sourceMappingURL=homepage.css.map */

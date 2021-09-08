@@ -208,7 +208,9 @@ width: 400px;
   
   .franja2{
    background-image: url("/wpimages/homepage/franja2jpg.jpg");
-  height: 900px;
+  height: 2000px; 
+  min-height: 900px;
+  
   background-size: cover;
   background-size: cover;
     background-size: cover;
@@ -651,13 +653,76 @@ margin-top: -75px;
     
     }
   
-
+    .franja2{
+      background-image: url("/wpimages/homepage/franja2jpg.jpg");
+     
+     height: 340px;
+     width: auto;
+     
+     background-size: cover;
+     background-size: cover;
+       background-size: cover;
+      
+    
+               .textosegundo{
+                 // texto quienes somos
+                 h1{
+            
+       
+                  font-size: 300%;
+                   font-family:bariol_bold-webfont;
+                 padding-top: 195px;
+            padding-bottom: 0px;
+            position: relative;
+           
+                 color: white;
+             
+                 }
+                 p{
+                   font-family:bariol_regular-webfont;
+                  position: relative;
+            left: -10px;
+                 margin-top: 15px;
+             //    margin-left: 25%;
+             //text-align:unset;
+                   color: white;
+                   font-size: 28px;
+                  // text-align: center;
+                 width: 50%;
+              
+                   
+                 }
+                 
+                   }
+                   //texto segundo fin
+                 //boton ver mas 
+                 .boton-quienes-somos{
+                 background-color: rgba(64,88,132,255);
+                    margin-top:8%;
+                 //   margin-left: 40%;
+     
+                   // padding: 600px;
+                   // margin-left: -100px;
+                  border-style: solid;
+                  border-color: rgba(64,88,132,255);
+                 width: 220px;
+                 height: 60px;
+                 border-radius: 800px;
+                 
+                 .letras{
+                 color: white;
+                 font-size: x-large;
+                 }
+                 
+                 }
+                 //fin de boton ver mas
+                 }
 
 
 
 
   }
-
+//fin de media 500
 
   // @media (min-width:425px)and( max-width: 768px ) 
 // modo responsibe
