@@ -426,11 +426,11 @@ width: 400px;
   
   
   //fin Curtain Menu
-  @media(max-width:1920px){
+  @media(max-width:2560px){
     navbar {
       background-color: var(--primary-color);
       color: #fff;
-      height: 70px;
+      height: 500px;
     //Curtain Menu/ham-icon
     .Paginas{
       a{
@@ -575,7 +575,7 @@ width: 400px;
             display: none;
           }
           background-image: url("/wpimages/homepage/Primeraparteninas.jpg");
-    height: 1100px;
+    height: 1500px;
     
     width:auto;
       background-size: cover;
@@ -587,8 +587,8 @@ width: 400px;
         .logoceleste{
          
        
-          height: 300px;
-          width: 200px;
+          height: 1000px;
+          width: 1000px;
           justify-self: flex-end;
           flex-direction: column;
         }
