@@ -214,8 +214,7 @@ body {
 
 .franja2 {
   background-image: url("/wpimages/homepage/franja2jpg.jpg");
-  height: 2000px;
-  min-height: 900px;
+  min-height: 400px;
   background-size: cover;
   background-size: cover;
   background-size: cover;
@@ -379,7 +378,6 @@ body {
   top: calc(50% - 70%);
 }
 
-/* Navbar */
 @media (max-width: 768px) {
   .franja1 {
     background-image: url("/wpimages/homepage/Primeraparteninas.jpg");
