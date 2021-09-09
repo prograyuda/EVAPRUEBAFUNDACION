@@ -426,11 +426,38 @@ width: 400px;
   
   
   //fin Curtain Menu
-  
-  @media (min-width:1920px)and( max-width: 2560px ){
-    navbar {
+  //4k
+  @media (min-width:2560px){
+    .franja1{
+      img{
+        display: none;
+      }
+    
+
+height: 1500px;
+background-size: cover;
+
+
+
+  }
+}
+@media (min-width:1920px) {
+  .franja1{
+    img{
+      display: none;
+    }
+    // background-image: url("/wpimages/homepage/Primeraparteninas.jpg");
+
+
+}
+   
+}
+  // monitores 1920
+  @media  only screen and (min-width:1920px) and (min-width:2560){
+    .navbar {
       background-color: var(--primary-color);
       color: #fff;
+  
       height: 500px;
     //Curtain Menu/ham-icon
     .Paginas{
@@ -545,7 +572,7 @@ width: 400px;
       .flex {
         justify-content: space-between;
       }
-    }
+  
     .container {
       max-width: 1100px;
       margin: 0 auto;
@@ -566,21 +593,11 @@ width: 400px;
     
     }
     
-    
-    
-    
+  }
     
     //header
-        .franja1{
-          img{
-            display: none;
-          }
-          background-image: url("/wpimages/homepage/Primeraparteninas.jpg");
-    height: 1500px;
+   
     
-    width:auto;
-      background-size: cover;
-        // background-size: cover;
      
       .logo{
     margin-top: -75px;
@@ -1009,7 +1026,7 @@ html {
 
 
   }
-}
+
 //fin de media 500
 
   // @media (min-width:425px)and( max-width: 768px ) 

@@ -378,17 +378,33 @@ body {
   top: calc(50% - 70%);
 }
 
-@media (min-width: 1920px) and (max-width: 2560px) {
-  navbar {
+@media (min-width: 2560px) {
+  .franja1 {
+    height: 1500px;
+    background-size: cover;
+  }
+  .franja1 img {
+    display: none;
+  }
+}
+
+@media (min-width: 1920px) {
+  .franja1 img {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1920px) and (min-width: 2560) {
+  .navbar {
     background-color: var(--primary-color);
     color: #fff;
     height: 500px;
   }
-  navbar .Paginas a {
+  .navbar .Paginas a {
     text-decoration: none;
     display: none;
   }
-  navbar .Lineas {
+  .navbar .Lineas {
     position: fixed;
     z-index: 10;
     top: 30px;
@@ -408,14 +424,14 @@ body {
             flex-direction: column;
     cursor: pointer;
   }
-  navbar .Lineas span {
+  .navbar .Lineas span {
     height: 4px;
     width: 100%;
     background: white;
     display: block;
     border-radius: 3px;
   }
-  navbar .Contenedor.abrir .Paginas {
+  .navbar .Contenedor.abrir .Paginas {
     position: fixed;
     top: 20px;
     right: -30px;
@@ -455,7 +471,7 @@ body {
     background-color: #449CAD;
     border-radius: 5px;
   }
-  navbar .Contenedor.abrir .Paginas a:hover {
+  .navbar .Contenedor.abrir .Paginas a:hover {
     background-color: rgba(155, 155, 155, 0.74);
     font-style: center;
     width: 195px;
@@ -464,18 +480,18 @@ body {
             align-items: center;
     text-align: center;
   }
-  navbar .Contenedor.abrir .Paginas .expander {
+  .navbar .Contenedor.abrir .Paginas .expander {
     background-color: var(--primary-color);
     width: 194px;
     height: 40px;
     border-bottom: 1px solid black;
   }
-  navbar .Contenedor.abrir .Paginas .All {
+  .navbar .Contenedor.abrir .Paginas .All {
     background-color: 7CC0A8;
     width: 194px;
     border-bottom: 1px solid black;
   }
-  navbar .Contenedor.abrir .Paginas a {
+  .navbar .Contenedor.abrir .Paginas a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -486,17 +502,17 @@ body {
     color: white;
     text-align: center;
   }
-  navbar .flex {
+  .navbar .flex {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .container {
+  .navbar .container {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 40px;
   }
-  .flex {
+  .navbar .flex {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -508,25 +524,16 @@ body {
             align-items: center;
     height: 100%;
   }
-  .logoceleste {
+  .navbar .logoceleste {
     margin-top: 50px;
     height: 200px;
     width: 300px;
     margin-left: -55px;
   }
-  .franja1 {
-    background-image: url("/wpimages/homepage/Primeraparteninas.jpg");
-    height: 1500px;
-    width: auto;
-    background-size: cover;
-  }
-  .franja1 img {
-    display: none;
-  }
-  .franja1 .logo {
+  .logo {
     margin-top: -75px;
   }
-  .franja1 .logo .logoceleste {
+  .logo .logoceleste {
     height: 1000px;
     width: 1000px;
     justify-self: flex-end;
@@ -537,7 +544,7 @@ body {
   }
 }
 
-@media (min-width: 1920px) and (max-width: 2560px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .franja1 {
     background-image: url("/wpimages/homepage/Primeraparteninas.jpg");
     height: 1450px;
@@ -557,7 +564,7 @@ body {
   }
 }
 
-@media (min-width: 1920px) and (max-width: 2560px) and (max-width: 500px) {
+@media (max-width: 500px) {
   .navbar {
     background-color: var(--primary-color);
     color: #fff;
