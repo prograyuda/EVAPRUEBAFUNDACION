@@ -378,7 +378,7 @@ body {
   top: calc(50% - 70%);
 }
 
-@media (max-width: 2560px) {
+@media (min-width: 1920px) and (max-width: 2560px) {
   navbar {
     background-color: var(--primary-color);
     color: #fff;
@@ -537,7 +537,7 @@ body {
   }
 }
 
-@media (max-width: 2560px) and (max-width: 768px) {
+@media (min-width: 1920px) and (max-width: 2560px) and (max-width: 768px) {
   .franja1 {
     background-image: url("/wpimages/homepage/Primeraparteninas.jpg");
     height: 1450px;
@@ -557,7 +557,7 @@ body {
   }
 }
 
-@media (max-width: 2560px) and (max-width: 500px) {
+@media (min-width: 1920px) and (max-width: 2560px) and (max-width: 500px) {
   .navbar {
     background-color: var(--primary-color);
     color: #fff;
