@@ -152,7 +152,7 @@ body {
 }
 
 .navbar .Contenedor.abrir .Paginas .All {
-  background-color: 7CC0A8;
+  background-color: #7CC0A8;
   width: 194px;
   border-bottom: 1px solid black;
 }
@@ -175,13 +175,13 @@ body {
           justify-content: space-between;
 }
 
-.container {
+.navbar .container {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 40px;
 }
 
-.flex {
+.navbar .flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -194,7 +194,7 @@ body {
   height: 100%;
 }
 
-.logoceleste {
+.navbar .logoceleste {
   margin-top: 100px;
   height: 400px;
   width: 400px;
@@ -202,9 +202,7 @@ body {
 
 .franja1 {
   background-image: url("/wpimages/homepage/Primeraparteninas.jpg");
-  height: 900px;
-  background-size: cover;
-  background-size: cover;
+  height: 1200px;
   background-size: cover;
 }
 
@@ -378,9 +376,10 @@ body {
   top: calc(50% - 70%);
 }
 
-@media (min-width: 2560px) {
+@media only screen and (max-width: 1440px) and (min-width: 1024px) {
   .franja1 {
-    height: 1500px;
+    height: 900px;
+    min-height: 800px;
     background-size: cover;
   }
   .franja1 img {
@@ -388,7 +387,11 @@ body {
   }
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 2560px) {
+  .franja1 {
+    height: 1500px;
+    background-size: cover;
+  }
   .franja1 img {
     display: none;
   }
@@ -529,6 +532,9 @@ body {
     height: 200px;
     width: 300px;
     margin-left: -55px;
+  }
+  .franja1 img {
+    display: none;
   }
   .logo {
     margin-top: -75px;
