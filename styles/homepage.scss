@@ -47,6 +47,7 @@
   }
 
 // header
+// barra de logo ham
 .navbar {
 	background-color: var(--primary-color);
 	color: #fff;
@@ -178,15 +179,15 @@ border-bottom:  1px solid black;
     height: 100%;
   }
   .logoceleste{
-    margin-top: 100px;
-  height: 400px;
-  width: 400px;
-  
+    margin-top: 200px;
+  height: 500px;
+  width: 700px;
+  margin-right:1200px;
   
   }
   
 }
-
+// barra de logo ham
 // fin de header
 
   .franja1{
@@ -279,14 +280,14 @@ border-bottom:  1px solid black;
     background-size: cover;
     background-size: cover;
       background-size: cover;
-   height: 2000px;
+   height: 3000px;
 
    .texto1{
 
     h2{
         font-size: 300%;
         font-family:bariol_bold-webfont;
-      padding-top: 195px;
+      padding-top: 495px;
     padding-bottom: 0px;
     position: relative;
     
@@ -316,7 +317,7 @@ border-bottom:  1px solid black;
   }
   .botones {
     margin-top: 70%;
-    font-size: 60px;
+    font-size: 100px;
     font-family:bariol_bold-webfont;
     width: 50px;
     height: 30px;
@@ -349,7 +350,7 @@ border-bottom:  1px solid black;
     h2{
         font-size: 300%;
         font-family:bariol_bold-webfont;
-      padding-top: 195px;
+      // padding-top: px;
     padding-bottom: 0px;
     position: relative;
     
@@ -378,7 +379,7 @@ border-bottom:  1px solid black;
   }
   .botones2 {
     margin-top: 70%;
-    font-size: 60px;
+    font-size: 100px;
     font-family:bariol_bold-webfont;
     width: 50px;
     height: 30px;
