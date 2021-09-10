@@ -206,13 +206,9 @@ border-bottom:  1px solid black;
   }
  
 
-
-
-  
   .franja2{
    background-image: url("/wpimages/homepage/franja2jpg.jpg");
-  
-  min-height: 400px;
+  height: 300px;
   
   background-size: cover;
   background-size: cover;
@@ -226,10 +222,9 @@ border-bottom:  1px solid black;
     
                font-size: 300%;
                 font-family:bariol_bold-webfont;
-              padding-top: 195px;
+              padding-top: 50px;//size of world=quienes somos
          padding-bottom: 0px;
          position: relative;
-        
               color: white;
           
               }
@@ -249,11 +244,11 @@ border-bottom:  1px solid black;
               }
               
                 }
-                //texto segundo fin
-              //boton ver mas 
+              
+              //boton de ver mas
               .boton-quienes-somos{
               background-color: rgba(64,88,132,255);
-                 margin-top:8%;
+                 margin-top: 60px;
               //   margin-left: 40%;
   
                 // padding: 600px;
@@ -263,7 +258,12 @@ border-bottom:  1px solid black;
               width: 220px;
               height: 60px;
               border-radius: 800px;
-              
+              :hover{
+                background-color: rgba(155, 155, 155, 0.74);
+
+
+
+              }
               .letras{
               color: white;
               font-size: x-large;
