@@ -98,33 +98,27 @@ max-width: 100%;
   
   /* franja1 */
   
-  @media (max-width:1024px){
+  @media (min-width:1024px) and (max-width:1440px){
   /* franja1 */
-  .franja1 img{
- height: 300px;
+  .franja1 .imgf{
+display: none;
+  
+  }
+  .franja1{
+background-image: url("/wpimages/homepage/Primeraparteninas.jpg");
+
+background-repeat: none ;
+background-size: cover;
+height: 900px;
+min-height: 900px;
+  }
+  
+  
+  
+  }
+  
   
 
-  
-  }
-  
-  
-  
-  }
-  
-  @media (max-width:1440px){
-  /* franja1 */
-  .franja1 img{
-  /* min-height:500px ; */
-  height:500px ;
-  
-  display: center;
-  
-  }
-  /* franja1 */
-  
-  
-  
-  }
   @media(max-width: 500px){
   .franja1 img{
   /* min-height:500px ; */
