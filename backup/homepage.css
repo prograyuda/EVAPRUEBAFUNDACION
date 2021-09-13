@@ -195,22 +195,20 @@ body {
 }
 
 .navbar .logoceleste {
-  margin-top: 200px;
-  height: 500px;
-  width: 700px;
-  margin-right: 1200px;
+  margin-top: 150px;
+  height: 400px;
+  width: 600px;
+  margin-left: -815px;
 }
 
 .franja1 {
   background-image: url("/wpimages/homepage/Primeraparteninas.jpg");
   height: 1200px;
-  background-size: cover;
 }
 
 .franja1 img {
-  display: none;
+display: none;
 }
-
 .franja2 {
   background-image: url("/wpimages/homepage/franja2jpg.jpg");
   height: 300px;
@@ -262,7 +260,7 @@ body {
   background-size: cover;
   background-size: cover;
   background-size: cover;
-  height: 3000px;
+  height: 1000px;
 }
 
 .franja3 .texto1 h2 {
@@ -380,14 +378,124 @@ body {
   top: calc(50% - 70%);
 }
 
-@media only screen and (max-width: 1440px) and (min-width: 1024px) {
+@media (max-width: 1024px) {
+  .navbar .logoceleste {
+    margin-top: 100px;
+    height: 300px;
+    width: 400px;
+    margin-left: -450px;
+  }
   .franja1 {
-    height: 900px;
-    min-height: 800px;
+    height: 600px;
     background-size: cover;
   }
   .franja1 img {
     display: none;
+  }
+  .franja3 {
+    background-image: url("/wpimages/homepage/Franaja3puntos.jpg");
+    background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    height: 3000px;
+  }
+  .franja3 .texto1 h2 {
+    font-size: 300%;
+    font-family: bariol_bold-webfont;
+    padding-top: 295px;
+    padding-bottom: 0px;
+    position: relative;
+    color: white;
+  }
+  .franja3 .texto1 * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .franja3 .texto1 html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .franja3 .texto1 .imagen1 {
+    width: 100%;
+    height: 100%;
+  }
+  .franja3 .texto1 .contenedor {
+    width: 50%;
+    position: relative;
+    height: 40%;
+  }
+  .franja3 .texto1 .botones {
+    margin-top: 70%;
+    font-size: 100px;
+    font-family: bariol_bold-webfont;
+    width: 50px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    color: white;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+  }
+  .franja3 .texto1 .botones:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+  }
+  .franja3 .texto1 .atras {
+    left: 0%;
+    top: calc(50% - 70%);
+  }
+  .franja3 .texto1 .adelante {
+    right: 0%;
+    top: calc(50% - 70%);
+  }
+  .franja3 .texto2 h2 {
+    font-size: 300%;
+    font-family: bariol_bold-webfont;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    position: relative;
+    color: white;
+  }
+  .franja3 .texto2 * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .franja3 .texto2 html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .franja3 .texto2 .imagen2 {
+    width: 100%;
+    height: 100%;
+  }
+  .franja3 .texto2 .contenedor2 {
+    width: 50%;
+    position: relative;
+    height: 40%;
+  }
+  .franja3 .texto2 .botones2 {
+    margin-top: 70%;
+    font-size: 100px;
+    font-family: bariol_bold-webfont;
+    width: 50px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    color: white;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+  }
+  .franja3 .texto2 .botones2:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+  }
+  .franja3 .texto2 .atras2 {
+    left: 0%;
+    top: calc(50% - 70%);
+  }
+  .franja3 .texto2 .adelante2 {
+    right: 0%;
+    top: calc(50% - 70%);
   }
 }
 
@@ -398,159 +506,6 @@ body {
   }
   .franja1 img {
     display: none;
-  }
-}
-
-@media only screen and (min-width: 1920px) and (min-width: 2560) {
-  .navbar {
-    background-color: var(--primary-color);
-    color: #fff;
-    height: 500px;
-  }
-  .navbar .Paginas a {
-    text-decoration: none;
-    display: none;
-  }
-  .navbar .Lineas {
-    position: fixed;
-    z-index: 10;
-    top: 30px;
-    right: -60px;
-    margin-right: 70px;
-    width: 35px;
-    height: 25px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    cursor: pointer;
-  }
-  .navbar .Lineas span {
-    height: 4px;
-    width: 100%;
-    background: white;
-    display: block;
-    border-radius: 3px;
-  }
-  .navbar .Contenedor.abrir .Paginas {
-    position: fixed;
-    top: 20px;
-    right: -30px;
-    margin-right: 90px;
-    position: fixed;
-    right: 0;
-    width: 30vw;
-    height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-transition: -webkit-transform .3s ease-in-out;
-    transition: -webkit-transform .3s ease-in-out;
-    transition: transform .3s ease-in-out;
-    transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
-    border: 2px solid white;
-    width: 200px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -ms-flex-line-pack: left;
-        align-content: left;
-    text-align: center;
-    background-color: #449CAD;
-    border-radius: 5px;
-  }
-  .navbar .Contenedor.abrir .Paginas a:hover {
-    background-color: rgba(155, 155, 155, 0.74);
-    font-style: center;
-    width: 195px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center;
-  }
-  .navbar .Contenedor.abrir .Paginas .expander {
-    background-color: var(--primary-color);
-    width: 194px;
-    height: 40px;
-    border-bottom: 1px solid black;
-  }
-  .navbar .Contenedor.abrir .Paginas .All {
-    background-color: 7CC0A8;
-    width: 194px;
-    border-bottom: 1px solid black;
-  }
-  .navbar .Contenedor.abrir .Paginas a {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    text-decoration: none;
-    font-size: 29px;
-    color: white;
-    text-align: center;
-  }
-  .navbar .flex {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .navbar .container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 40px;
-  }
-  .navbar .flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    height: 100%;
-  }
-  .navbar .logoceleste {
-    margin-top: 50px;
-    height: 200px;
-    width: 300px;
-    margin-left: -55px;
-  }
-  .franja1 img {
-    display: none;
-  }
-  .logo {
-    margin-top: -75px;
-  }
-  .logo .logoceleste {
-    height: 1000px;
-    width: 1000px;
-    justify-self: flex-end;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
   }
 }
 
@@ -580,11 +535,11 @@ body {
     color: #fff;
     height: 70px;
   }
-  .navbar .Paginas a {
+  .navbar .Contenedor.abrir .Paginas a {
     text-decoration: none;
     display: none;
   }
-  .navbar .Lineas {
+  .navbar .Contenedor.abrir .Lineas {
     position: fixed;
     z-index: 10;
     top: 30px;
@@ -604,7 +559,7 @@ body {
             flex-direction: column;
     cursor: pointer;
   }
-  .navbar .Lineas span {
+  .navbar .Contenedor.abrir .Lineas span {
     height: 4px;
     width: 100%;
     background: white;

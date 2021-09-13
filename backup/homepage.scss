@@ -1,0 +1,1023 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+  :root{
+    --primary-color:#3B9BB1;//
+
+  }
+  body{
+  margin: 0%;
+  padding: 0%;
+  background-color:var(--primary-color);
+  }
+  //Letras Fuentes
+  @font-face {
+    font-family:bariol_bold ;
+    src: url(/Fonts/titulos/bariol_bold_italic-webfont.ttf);
+  }
+  @font-face {
+    font-family:bariol_bold-webfont ;
+    src: url(/Fonts/bariol_bold-webfont.ttf);
+  }
+  @font-face {
+    font-family:bariol_light-webfont ;
+    src: url(/Fonts/bariol_light-webfont.ttf);
+  }
+  @font-face {
+    font-family:bariol_light_italic-webfont;
+    src: url(/Fonts/bariol_light_italic-webfont.ttf);
+  }
+  @font-face {
+    font-family:bariol_regular-webfont;
+    src: url(/Fonts/bariol_regular-webfont.ttf);
+  }
+  @font-face {
+    font-family:bariol_regular_italic-webfont;
+    src: url(/Fonts/bariol_regular_italic-webfont.ttf);
+  }
+  @font-face {
+    font-family:bariol_thin-webfont;
+    src: url(/Fonts/bariol_thin-webfont.ttf);
+  }
+  @font-face {
+    font-family:bariol_thin_italic-webfont;
+    src: url(/Fonts/bariol_thin_italic-webfont.ttf);
+  }
+
+  .navbar {
+    background-color: var(--primary-color);
+    color: #fff;
+    height: 70px;
+  //Curtain Menu/ham-icon
+  .Paginas{
+    a{
+  text-decoration: none;
+  display: none;
+    }
+  
+  
+  }
+  
+  
+  .Lineas{
+  position: fixed;
+  z-index: 10;
+  top: 30px;
+  right: 30px;
+    margin-right: 70px;
+      width: 35px;
+      height: 25px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      cursor: pointer;
+  
+        span{
+       height: 4px;
+        width: 100%;
+        background:white;
+        display: block;
+        border-radius: 3px;
+        }
+       
+      }
+  
+  .Contenedor.abrir{
+    .Paginas{
+      position: fixed;
+      //z-index: 10;
+     top: 20px;
+     right: -30px;
+         margin-right: 90px;
+        // margin-top: -10px;
+      position: fixed;
+     //top: -10000;
+       right: 0;
+       width: 30vw;
+       height: 100%;
+      // background-image: linear-gradient(to right, #434343 0%, black 100%);
+     //  background-color:#449CAD ;
+       display: flex;
+       flex-direction:column;
+       justify-content: space-evenly;
+       align-items: center;
+       transition:transform .3s ease-in-out;
+      // transform: translate(110%);
+      // box-shadow: 0 0 6px rgb(14, 13, 13);
+      //
+        border: 2px solid white;
+        width: 200px;
+        //padding-top: 120px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: left;
+        text-align: center;
+        background-color: #449CAD;
+        border-radius: 5px;
+        a:hover{
+          background-color:rgba(155, 155, 155, 0.74);
+        font-style: center;
+          width: 195px ;
+  
+  
+          align-items: center;
+     
+       
+        text-align: center;
+   
+          }
+        .expander{
+          background-color:var(--primary-color);
+          width: 194px;
+          height: 40px;
+          border-bottom:  1px solid black;
+  
+        }
+        .All{
+          background-color:#7CC0A8;
+          width: 194px;
+          //height: 50px;
+  border-bottom:  1px solid black;
+  
+        }
+    
+        a {
+          display: flex;
+          padding-top: 5px;
+          padding-bottom: 5px;
+         // padding-left: 1px;
+      text-decoration:none ;
+      font-size: 29px;
+      color: rgb(255, 255, 255);
+      text-align: center;
+  
+      }
+     
+      }  
+    }
+    //fin del menu ham
+    .flex {
+      justify-content: space-between;
+  
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      
+      padding: 0 40px;
+    }
+    .flex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+    .logoceleste{
+      margin-top: 150px;
+    height: 400px;
+    width: 600px;
+    margin-left: -815px;
+   
+    
+    }
+    
+  }
+
+
+
+
+  
+
+  .franja1{
+  
+    img{
+height: 1090px;
+  
+    }
+    background-image: url("/wpimages/homepage/Primeraparteninas.jpg");
+
+height: 1200px;
+   
+
+
+
+ 
+ 
+  
+  }
+ 
+
+  .franja2{
+   background-image: url("/wpimages/homepage/franja2jpg.jpg");
+  height: 300px;
+  
+  background-size: cover;
+  background-size: cover;
+    background-size: cover;
+   
+ 
+            .textosegundo{
+              // texto quienes somos
+              h1{
+         
+    
+               font-size: 300%;
+                font-family:bariol_bold-webfont;
+              padding-top: 50px;//size of world=quienes somos
+         padding-bottom: 0px;
+         position: relative;
+              color: white;
+          
+              }
+              p{
+                font-family:bariol_regular-webfont;
+               position: relative;
+         left: -10px;
+              margin-top: 15px;
+          //    margin-left: 25%;
+          //text-align:unset;
+                color: white;
+                font-size: 28px;
+               // text-align: center;
+              width: 50%;
+           
+                
+              }
+              
+                }
+              
+              //boton de ver mas
+              .boton-quienes-somos{
+              background-color: rgba(64,88,132,255);
+                 margin-top: 60px;
+              //   margin-left: 40%;
+  
+                // padding: 600px;
+                // margin-left: -100px;
+               border-style: solid;
+               border-color: rgba(64,88,132,255);
+              width: 220px;
+              height: 60px;
+              border-radius: 800px;
+              :hover{
+                background-color: rgba(155, 155, 155, 0.74);
+
+
+
+              }
+              .letras{
+              color: white;
+              font-size: x-large;
+              }
+              
+              }
+              //fin de boton ver mas
+              }
+
+
+.franja3{
+    background-image: url("/wpimages/homepage/Franaja3puntos.jpg");
+    background-size: cover;
+    background-size: cover;
+      background-size: cover;
+   height: 1000px;
+
+   .texto1{
+
+    h2{
+        font-size: 300%;
+        font-family:bariol_bold-webfont;
+      padding-top: 495px;
+    padding-bottom: 0px;
+    position: relative;
+    
+      color: white;
+    
+       }
+   //CARRUSEL1
+
+   * {
+    box-sizing: border-box;
+   // background-color: blue;
+  }
+  html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .imagen1 {
+    
+    width: 100%;
+    height: 100%;
+   // margin-top: 30%;
+   // margin-left: 20%;
+  }
+  .contenedor {
+    width: 50%;
+    position: relative;
+    height: 40%;
+  }
+  .botones {
+    margin-top: 70%;
+    font-size: 100px;
+    font-family:bariol_bold-webfont;
+    width: 50px;
+    height: 30px;
+   // line-height: 10%;
+    border-radius: 50%;
+    position: absolute;
+    color: white;
+   // box-shadow: 0 0 10px orange;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.2,1.2);
+    }
+  }
+  .atras {
+    left: 0%;
+    top: calc(50% - 70%);
+  }
+  .adelante {
+    right: 0%;
+    top: calc(50% - 70%);
+  }
+  //fin carusel1
+
+   }
+   .texto2{
+
+    h2{
+        font-size: 300%;
+        font-family:bariol_bold-webfont;
+      // padding-top: px;
+    padding-bottom: 0px;
+    position: relative;
+    
+      color: white;
+    
+       }
+   //CARRUSEL2
+
+   * {
+    box-sizing: border-box;
+   // background-color: blue;
+  }
+  html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .imagen2 {
+    width: 100%;
+    height: 100%;
+   // margin-top: 30%;
+   // margin-left: 20%;
+  }
+  .contenedor2 {
+    width: 50%;
+    position: relative;
+    height: 40%;
+  }
+  .botones2 {
+    margin-top: 70%;
+    font-size: 100px;
+    font-family:bariol_bold-webfont;
+    width: 50px;
+    height: 30px;
+   // line-height: 10%;
+    border-radius: 50%;
+    position: absolute;
+    color: white;
+   // box-shadow: 0 0 10px orange;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.2,1.2);
+    }
+  }
+  .atras2 {
+    left: 0%;
+    top: calc(50% - 70%);
+  }
+  .adelante2 {
+    right: 0%;
+    top: calc(50% - 70%);
+  }
+  //fin carusel1
+
+   }
+
+
+  
+}
+@media(max-width:1024px){
+  .navbar {
+    
+    .logoceleste{
+      margin-top: 100px;
+    height: 300px;
+    width: 400px;
+    margin-left: -450px;
+   
+    
+    }
+    
+  }
+
+  .franja1{
+    img{
+      display: none;
+    }
+    // background-image: url("/wpimages/homepage/Primeraparteninas.jpg");
+   height: 600px;
+ 
+  background-size: cover;
+
+  }
+
+  .franja3{
+    background-image: url("/wpimages/homepage/Franaja3puntos.jpg");
+    background-size: cover;
+    background-size: cover;
+      background-size: cover;
+   height: 3000px;
+
+   .texto1{
+
+    h2{
+        font-size: 300%;
+        font-family:bariol_bold-webfont;
+      padding-top: 295px;
+    padding-bottom: 0px;
+    position: relative;
+    
+      color: white;
+    
+       }
+   //CARRUSEL1
+
+   * {
+    box-sizing: border-box;
+   // background-color: blue;
+  }
+  html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .imagen1 {
+    
+    width: 100%;
+    height: 100%;
+   // margin-top: 30%;
+   // margin-left: 20%;
+  }
+  .contenedor {
+    width: 50%;
+    position: relative;
+    height: 40%;
+  }
+  .botones {
+    margin-top: 70%;
+    font-size: 100px;
+    font-family:bariol_bold-webfont;
+    width: 50px;
+    height: 30px;
+   // line-height: 10%;
+    border-radius: 50%;
+    position: absolute;
+    color: white;
+   // box-shadow: 0 0 10px orange;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.2,1.2);
+    }
+  }
+  .atras {
+    left: 0%;
+    top: calc(50% - 70%);
+  }
+  .adelante {
+    right: 0%;
+    top: calc(50% - 70%);
+  }
+  //fin carusel1
+
+   }
+   .texto2{
+
+    h2{
+        font-size: 300%;
+        font-family:bariol_bold-webfont;
+       padding-top: 100px;
+    padding-bottom: 0px;
+    position: relative;
+    
+      color: white;
+    
+       }
+   //CARRUSEL2
+
+   * {
+    box-sizing: border-box;
+   // background-color: blue;
+  }
+  html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .imagen2 {
+    width: 100%;
+    height: 100%;
+   // margin-top: 30%;
+   // margin-left: 20%;
+  }
+  .contenedor2 {
+    width: 50%;
+    position: relative;
+    height: 40%;
+  }
+  .botones2 {
+    margin-top: 70%;
+    font-size: 100px;
+    font-family:bariol_bold-webfont;
+    width: 50px;
+    height: 30px;
+   // line-height: 10%;
+    border-radius: 50%;
+    position: absolute;
+    color: white;
+   // box-shadow: 0 0 10px orange;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.2,1.2);
+    }
+  }
+  .atras2 {
+    left: 0%;
+    top: calc(50% - 70%);
+  }
+  .adelante2 {
+    right: 0%;
+    top: calc(50% - 70%);
+  }
+  //fin carusel1
+
+   }
+
+  }
+}
+// @media only screen and (max-width:1024px) and (max-width:1440px) {
+
+  
+// }
+
+
+
+  //fin Curtain Menu
+  //4k
+  @media (min-width:2560px){
+    .franja1{
+      img{
+        display: none;
+      }
+    
+
+height: 1500px;
+background-size: cover;
+
+
+
+  }
+}
+
+   
+
+  // monitores 1920
+
+  @media (max-width: 768px) {
+    .franja1{
+          background-image: url("/wpimages/homepage/Primeraparteninas.jpg");
+      height: 1450px;
+        background-size: cover;
+        background-size: cover;
+          background-size: cover;
+        
+        .logoceleste{
+        
+          height: 500px;
+          width: 500px;
+          margin-top: -10%;
+        }
+       
+        
+        }
+        .soycentro{
+        align-items: center;
+        
+        
+        }
+      
+      
+
+
+
+
+  }
+
+
+  @media (max-width: 500px) {
+//header
+.navbar {
+	background-color: var(--primary-color);
+	color: #fff;
+	height: 70px;
+//Curtain Menu/ham-icon
+
+
+.Contenedor.abrir{
+  .Paginas{
+    a{
+  text-decoration: none;
+  display: none;
+    }
+  
+  
+  }
+  .Lineas{
+  position: fixed;
+  z-index: 10;
+  top: 30px;
+  right: -60px;
+    margin-right: 70px;
+      width: 35px;
+      height: 25px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      cursor: pointer;
+  
+        span{
+       height: 4px;
+        width: 100%;
+        background:white;
+        display: block;
+        border-radius: 3px;
+        }
+       
+      }
+  .Paginas{
+    position: fixed;
+    //z-index: 10;
+   top: 20px;
+   right: -30px;
+       margin-right: 90px;
+      // margin-top: -10px;
+    position: fixed;
+   //top: -10000;
+     right: 0;
+     width: 30vw;
+     height: 100%;
+    // background-image: linear-gradient(to right, #434343 0%, black 100%);
+   //  background-color:#449CAD ;
+     display: flex;
+     flex-direction:column;
+     justify-content: space-evenly;
+     align-items: center;
+     transition:transform .3s ease-in-out;
+    // transform: translate(110%);
+    // box-shadow: 0 0 6px rgb(14, 13, 13);
+    //
+      border: 2px solid white;
+      width: 200px;
+      //padding-top: 120px;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-content: left;
+      text-align: center;
+      background-color: #449CAD;
+      border-radius: 5px;
+      a:hover{
+        background-color:rgba(155, 155, 155, 0.74);
+      font-style: center;
+        width: 195px ;
+
+
+        align-items: center;
+   
+     
+      text-align: center;
+ 
+        }
+      .expander{
+        background-color:var(--primary-color);
+        width: 194px;
+        height: 40px;
+        border-bottom:  1px solid black;
+
+      }
+      .All{
+        background-color:7CC0A8;
+        width: 194px;
+        //height: 50px;
+border-bottom:  1px solid black;
+
+      }
+  
+      a {
+        display: flex;
+        padding-top: 5px;
+        padding-bottom: 5px;
+       // padding-left: 1px;
+    text-decoration:none ;
+    font-size: 29px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+    }
+   
+    }  
+  }
+  //fin del menu ham
+	.flex {
+		justify-content: space-between;
+	}
+}
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+	
+	padding: 0 40px;
+}
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+.logoceleste{
+  margin-top: 50px;
+height: 200px;
+width: 300px;
+margin-left: -55px;
+
+}
+
+
+
+
+
+//header
+    .franja1{
+      img{
+        display: none;
+      }
+      background-image: url("/wpimages/homepage/Primeraparteninas.jpg");
+height: 340px;
+
+width:auto;
+  background-size: cover;
+    // background-size: cover;
+ 
+  .logo{
+margin-top: -75px;
+  
+    .logoceleste{
+     
+   
+      height: 300px;
+      width: 200px;
+      justify-self: flex-end;
+      flex-direction: column;
+    }
+  }
+    
+    }
+  
+    .franja2{
+     // background-image: url("/wpimages/homepage/franja2jpg.jpg");
+     
+     height: 340px;
+     width: auto;
+     
+     background-size: cover;
+     background-size: cover;
+       background-size: cover;
+      
+    
+               .textosegundo{
+                 // texto quienes somos
+                 h1{
+            
+       
+                  font-size: 300%;
+                   font-family:bariol_bold-webfont;
+                 padding-top: 195px;
+            padding-bottom: 0px;
+            position: relative;
+           
+                 color: white;
+             
+                 }
+                 p{
+                   font-family:bariol_regular-webfont;
+                  position: relative;
+            left: -10px;
+                 margin-top: 15px;
+             //    margin-left: 25%;
+             //text-align:unset;
+                   color: white;
+                   font-size: 28px;
+                  // text-align: center;
+                 width: 50%;
+              
+                   
+                 }
+                 
+                   }
+                   //texto segundo fin
+                 //boton ver mas 
+                 .boton-quienes-somos{
+                 background-color: rgba(64,88,132,255);
+                    margin-top:8%;
+                 //   margin-left: 40%;
+     
+                   // padding: 600px;
+                   // margin-left: -100px;
+                  border-style: solid;
+                  border-color: rgba(64,88,132,255);
+                 width: 220px;
+                 height: 60px;
+                 border-radius: 800px;
+                 
+                 .letras{
+                 color: white;
+                 font-size: x-large;
+                 }
+                 
+                 }
+                 //fin de boton ver mas
+                 }
+//fin de franja 2
+
+.franja3{
+  background-image: url("/wpimages/homepage/Franaja3puntos.jpg");
+  background-size: cover;
+  background-size: cover;
+    background-size: cover;
+ height:1000px;
+
+ .texto1{
+
+  h2{
+      font-size: 300%;
+      font-family:bariol_bold-webfont;
+    padding-top: 195px;
+  padding-bottom: 0px;
+  position: relative;
+  
+    color: white;
+  
+     }
+ //CARRUSEL1
+
+ * {
+  box-sizing: border-box;
+ // background-color: blue;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.imagen1 {
+  
+  width: 100%;
+  height: 100%;
+ // margin-top: 30%;
+ // margin-left: 20%;
+}
+.contenedor {
+  width: 50%;
+  position: relative;
+  height: 40%;
+}
+.botones {
+  margin-top: 70%;
+  font-size: 60px;
+  font-family:bariol_bold-webfont;
+  width: 50px;
+  height: 30px;
+ // line-height: 10%;
+  border-radius: 50%;
+  position: absolute;
+  color: white;
+ // box-shadow: 0 0 10px orange;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+  }
+}
+.atras {
+  left: 0%;
+  top: calc(50% - 70%);
+}
+.adelante {
+  right: 0%;
+  top: calc(50% - 70%);
+}
+//fin carusel1
+
+ }
+ .texto2{
+
+  h2{
+      font-size: 300%;
+      font-family:bariol_bold-webfont;
+    padding-top: 195px;
+  padding-bottom: 0px;
+  position: relative;
+  
+    color: white;
+  
+     }
+ //CARRUSEL2
+
+ * {
+  box-sizing: border-box;
+ // background-color: blue;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.imagen2 {
+  width: 100%;
+  height: 100%;
+ // margin-top: 30%;
+ // margin-left: 20%;
+}
+.contenedor2 {
+  width: 50%;
+  position: relative;
+  height: 40%;
+}
+.botones2 {
+  margin-top: 70%;
+  font-size: 60px;
+  font-family:bariol_bold-webfont;
+  width: 50px;
+  height: 30px;
+ // line-height: 10%;
+  border-radius: 50%;
+  position: absolute;
+  color: white;
+ // box-shadow: 0 0 10px orange;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+  }
+}
+.atras2 {
+  left: 0%;
+  top: calc(50% - 70%);
+}
+.adelante2 {
+  right: 0%;
+  top: calc(50% - 70%);
+}
+//fin carusel1
+
+ }
+
+
+
+}
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+// fin del modo respnsibe
