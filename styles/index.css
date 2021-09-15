@@ -127,6 +127,12 @@ min-height: 900px;
 
 
 @media(max-width: 500px){
+  .logo img{
+
+    height:200px ;
+    width:300px; 
+    
+    }
 /* franja1 */
 .franja1 .imgf{
   display: none;
@@ -137,7 +143,7 @@ min-height: 900px;
   
   
   background-size: cover;
-  height: 900px;
+  height: 2000px;
 
   }
 
