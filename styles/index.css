@@ -10,6 +10,47 @@ height:250px ;
 width:500px; 
 
 }
+/* fuentes  */
+@font-face {
+  font-family: bariol_bold;
+  src: url(/Fonts/titulos/bariol_bold_italic-webfont.ttf);
+}
+
+@font-face {
+  font-family: bariol_bold-webfont;
+  src: url(/Fonts/bariol_bold-webfont.ttf);
+}
+
+@font-face {
+  font-family: bariol_light-webfont;
+  src: url(/Fonts/bariol_light-webfont.ttf);
+}
+
+@font-face {
+  font-family: bariol_light_italic-webfont;
+  src: url(/Fonts/bariol_light_italic-webfont.ttf);
+}
+
+@font-face {
+  font-family: bariol_regular-webfont;
+  src: url(/Fonts/bariol_regular-webfont.ttf);
+}
+
+@font-face {
+  font-family: bariol_regular_italic-webfont;
+  src: url(/Fonts/bariol_regular_italic-webfont.ttf);
+}
+
+@font-face {
+  font-family: bariol_thin-webfont;
+  src: url(/Fonts/bariol_thin-webfont.ttf);
+}
+
+@font-face {
+  font-family: bariol_thin_italic-webfont;
+  src: url(/Fonts/bariol_thin_italic-webfont.ttf);
+}
+/* fuentes */
 .container {
   max-width: 900px;
   margin: 0 auto;
@@ -100,10 +141,65 @@ height: 200px;
 max-width: 100%;
 
 }
+/* fin franja1 */
+
+/* franja2 */
+.franja2 {
+  background-image: url("/wpimages/homepage/franja2jpg.jpg");
+  height: 300px;
+  background-size: cover;
+  background-size: cover;
+  background-size: cover;
+}
+
+.franja2 .textosegundo h1 {
+  font-size: 300%;
+  font-family: bariol_bold-webfont;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  position: relative;
+  color: white;
+}
+
+.franja2 .textosegundo p {
+  font-family: bariol_regular-webfont;
+  position: relative;
+  left: -10px;
+  margin-top: 15px;
+  color: white;
+  font-size: 28px;
+  width: 50%;
+}
+
+.franja2 .boton-quienes-somos {
+  background-color: #405884;
+  margin-top: 60px;
+  border-style: solid;
+  border-color: #405884;
+  width: 220px;
+  height: 60px;
+  border-radius: 800px;
+}
+
+.franja2 .boton-quienes-somos :hover {
+  width: 220px;
+  height: 60px;
+  border-radius: 800px;
+  background-color: rgb(red, green, blue);
+}
+.franja2 .boton-quienes-somos :hover .letras{
+
+  color: white;
+  font-size: x-large;
+}
 
 
+.franja2 .boton-quienes-somos .letras {
+  color: white;
+  font-size: x-large;
+}
 
-/* franja1 */
+/* fin franja 2 */
 
 @media (min-width:1024px) and (max-width:1440px){
 /* franja1 */
