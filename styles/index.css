@@ -382,11 +382,36 @@ min-height: 900px;
   }
   .franja1{
   background-image: url("/wpimages/homepage/Primeraparteninas.jpg")no-repeat;
-  
-  
+
   background-size: cover;
   height: 2000px;
 
   }
+/* fin fraja 1 */
+
+/* franja2 */
+.franja2 .textosegundo h1 {
+  top: -1700px;
+  align-items: center;
+font-size: 40px;
+}
+
+ .franja2 p{
+  top: -1700px;
+font-size: 200px;
+ }
+ .franja2 .boton-quienes-somos {
+  position: absolute;
+  top: 100%;
+  left: 140px;
+}
+ 
+/* fin franja2 */
+
+.franja3 {
+height: 400px;
+
+}
+  
 
 }
