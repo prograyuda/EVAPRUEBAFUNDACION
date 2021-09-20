@@ -173,6 +173,7 @@ max-width: 100%;
   width: 220px;
   height: 60px;
   border-radius: 800px;
+  font-family: bariol_regular-webfont;
 }
 
 .franja2 .boton-quienes-somos:hover {
@@ -407,6 +408,7 @@ font-size: px;
   top:200%;
   left: 70px;
 align-content: center;
+
 
 }
  
