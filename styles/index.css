@@ -390,9 +390,7 @@ min-height: 900px;
 /* fin fraja 1 */
 
 /* franja2 */
-.franja2{
-  height: 10px;
-}
+
 .franja2 .textosegundo h1 {
   top: -1700px;
   align-items: center;
@@ -406,8 +404,9 @@ font-size: px;
  }
  .franja2 .boton-quienes-somos {
   position: absolute;
-  top:150%;
-  left: 100px;
+  top:100%;
+  left: 133px;
+align-content: center;
 
 }
  
