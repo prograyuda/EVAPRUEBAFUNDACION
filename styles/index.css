@@ -391,7 +391,12 @@ min-height: 900px;
 /* fin fraja 1 */
 
 /* franja2 */
+.franja2{
+background-image: url("/wpimages/homepage/franja2jpg.jpg")no-repeat;
+height: 10px;
 
+
+}
 .franja2 .textosegundo h1 {
   top: -1700px;
   align-items: center;
@@ -403,11 +408,10 @@ font-size: 40px;
 font-size: px;
 
  }
- .franja2 .boton-quienes-somos {
-  position: absolute;
-  top:200%;
-  left: 70px;
-align-content: center;
+ .franja2 .boton-quienes-somos{
+position: absolute;
+top: 1200px;
+left: 100px;
 
 
 }
@@ -415,7 +419,7 @@ align-content: center;
 /* fin franja2 */
 
 .franja3 {
-height: 400px;
+height: 500px;
 
 }
   
