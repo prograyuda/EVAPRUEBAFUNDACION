@@ -165,7 +165,7 @@ max-width: 100%;
   width: 50%;
 }
 
-.franja2 .boton-quienes-somos {
+.franja2 button {
   background-color: #405884;
   margin-top: 60px;
   border-style: solid;
@@ -176,7 +176,7 @@ max-width: 100%;
   font-family: bariol_regular-webfont;
 }
 
-.franja2 .boton-quienes-somos:hover {
+.franja2 button:hover {
   width: 220px;
   height: 60px;
   border-radius: 800px;
@@ -184,14 +184,14 @@ max-width: 100%;
   transform: scale(0.97);
 
 }
-.franja2 .boton-quienes-somos :hover .letras{
+.franja2 button :hover h4{
 
   color: white;
   font-size: x-large;
 }
 
 
-.franja2 .boton-quienes-somos .letras {
+.franja2 button h4 {
   color: white;
   font-size: x-large;
 }
@@ -353,7 +353,7 @@ min-height: 900px;
  }
 
 
-.franja2 .boton-quienes-somos {
+.franja2 .button {
   background-color: #405884;
   margin-top: -500px;
   top: 200px;
@@ -391,12 +391,6 @@ min-height: 900px;
 /* fin fraja 1 */
 
 /* franja2 */
-.franja2{
-background-image: url("/wpimages/homepage/franja2jpg.jpg")no-repeat;
-height: 10px;
-
-
-}
 .franja2 .textosegundo h1 {
   top: -1700px;
   align-items: center;
@@ -405,13 +399,12 @@ font-size: 40px;
 
  .franja2 .textosegundo p{
   top: -1700px;
-font-size: px;
 
  }
- .franja2 .boton-quienes-somos{
-position: absolute;
+ .franja2 .button{
+/* position: absolute;
 top: 1200px;
-left: 100px;
+left: 100px; */
 
 
 }
