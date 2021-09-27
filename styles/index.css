@@ -421,10 +421,15 @@ min-height: 900px;
 /* fin fraja 1 */
 
 /* franja2 */
+.franja2{
+  z-index: 2;
+
+}
 .franja2 .textosegundo h1 {
   top: -1700px;
   align-items: center;
 font-size: 40px;
+
 }
 
  .franja2 .textosegundo p{
@@ -479,8 +484,7 @@ height: 500px;
       box-shadow: 0 2px 5px rgba(255,101,47,.2);
       transition: all .5s ease-in-out;
     }
-    .menu-btn__burger::before {
-      transform: translateY(-16px);
+    .menu-btn__burger::before {fr16px);
     }
     .menu-btn__burger::after {
       transform: translateY(16px);
@@ -520,6 +524,7 @@ height: 500px;
       width: 90vw;
       height: 100%;
       background-color: #405886;
+      z-index: 1;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
