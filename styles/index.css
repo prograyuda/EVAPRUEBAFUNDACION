@@ -465,10 +465,10 @@ height: 500px;
       /* border: 3px solid #fff; */
     }
     .menu-btn__burger {
-      width: 40px;
-      height: 10px;
+      width: 30px;
+      height: 7px;
       background: #fff;
-      border-radius: 5px;
+      border-radius: 10px;
       box-shadow: 0 2px 5px rgba(255,101,47,.2);
       transition: all .5s ease-in-out;
     }
@@ -476,10 +476,10 @@ height: 500px;
     .menu-btn__burger::after {
       content: '';
       position: absolute;
-      width: 40px;
-      height: 10px;
+      width: 30px;
+      height: 7px;
       background: #fff;
-      border-radius: 5px;
+      border-radius: 10px;
       box-shadow: 0 2px 5px rgba(255,101,47,.2);
       transition: all .5s ease-in-out;
     }
