@@ -173,6 +173,8 @@ height: 200px;
 max-width: 100%;
 
 }
+
+
 /* fin franja1 */
 
 /* franja2 */
@@ -186,6 +188,7 @@ max-width: 100%;
   position: relative;
   color: white;
 }
+
 
 .franja2 .textosegundo p {
   font-family: bariol_regular-webfont;
@@ -603,8 +606,57 @@ height: 500px;
     } 
     /* finde  letras del menu */
     /* fin del hamburguer icon */
+/* scroll ddown */
+.scroll-down{
+  height: 50px;
+width: 30px;
+border:  2px solid black;
+position: absolute;
+left: 50%;
+bottom: 20px;
+border-radius: 50px;
+cursor: pointer;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+.scroll-down::before,
+.scroll-down::after{
+content: '';
+position: absolute;
+top: 10%;
+left: 50%;
+border: 2px solid black;
+height: 10px;
+width: 10px;
+transform: translate(-50%,-100%)rotate(45deg);
+border-top: transparent;
+border-left: transparent;
+animation: scroll-down 1s ease-in infinite
+}
+.scroll-down::after{
+  top: 30%;
+  animation-delay: .3s;
+}
+@keyframes scroll-down{
+  0%{
+    opacity: 0;
+  
+  }
+  30%{
+    opacity: 1;
+  
+  }
+  60%{
+    opacity: 1;
+  
+  }
+  100%{
+    opacity: 0;
+    top:90%;
+  }
+}
+/* fin de scroll down */
     }
-    /* finde  letras del menu */
-    /* fin del hamburguer icon */
- 
-  /* fin hamburger menu */
+
