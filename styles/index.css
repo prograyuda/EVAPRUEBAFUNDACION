@@ -447,11 +447,27 @@ left: 100px; */
 /*}
  
 /* fin franja2 */
-
+/* franja 3 */
 .franja3 {
 height: 500px;
 
 }
+.franja3  .contenedor {
+  width: 70%;
+  position: relative;
+  height: 40%;
+  padding-top: 20px;
+}
+/* letras */
+.franja3 .texto1 .imagen1  {
+  width: 90%;
+  height: 10%;
+
+}
+.franja3 .texto1{
+
+}
+/* fin franja 3*/
   /* hamburger menu */
 
     .menu-btn {
