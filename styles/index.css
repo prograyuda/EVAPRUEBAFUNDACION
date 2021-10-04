@@ -452,18 +452,21 @@ left: 100px; */
 height: 500px;
 
 }
+
+.franja3 .texto1 .imagen1  {
+  width: 100%;
+  height: 20%;
+
+}
+
 .franja3  .contenedor {
   width: 70%;
   position: relative;
   height: 40%;
-  padding-top: 20px;
+  padding-top:100px;
 }
 /* letras */
-.franja3 .texto1 .imagen1  {
-  width: 90%;
-  height: 10%;
 
-}
 .franja3 .texto1{
 
 }
