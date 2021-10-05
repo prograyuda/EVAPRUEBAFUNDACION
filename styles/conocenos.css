@@ -9,141 +9,110 @@
   font-family:bariol_regular-webfont;
   src: url(/Fonts/bariol_regular-webfont.ttf);
 }
-.iconhead{
-width: 100px;
-height: 30%;
-
-
-
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
 }
 
-/* menu */
-.Paginas a {
-  text-decoration: none;
-  display: none;
-}
-
-.Lineas {
-  position: absolute;
-  z-index: 10;
-  top: 30px;
-   right: 30px; 
- /* margin-right: 70px;*/
-  width: 35px;
-  height: 25px;
-  display: -webkit-box;
-  display: -ms-flexbox;
+.flex {
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  cursor: pointer;
-}
-
-.Lineas span {
-  height: 4px;
-  width: 100%;
-  background: white;
-  display: block;
-  border-radius: 3px;
-}
-
-.Contenedor.abrir .Paginas {
-  position: fixed;
-  top: 20px;
-   right: -30px;
-  margin-right: 90px; 
-  position: fixed;
-  /* right: 0; */
-  width: 30vw;
+  justify-content: center;
+  align-items: center;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-transition: -webkit-transform .3s ease-in-out;
-  transition: -webkit-transform .3s ease-in-out;
-  transition: transform .3s ease-in-out;
-  transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
-  border: 2px solid white;
-  width: 200px;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  /* -ms-flex-line-pack: left;
-      align-content: left; */
-  text-align: center;
-  background-color: gray;
-  border-radius: 5px;
 }
 
-.Contenedor.abrir .Paginas a:hover {
-  background-color: #449CAD;
-  width: 80%;
-  padding: -1px;
-  /* padding-left: 33px; */
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-bottom: black 2px;
-  text-align: center;
+body {
+  font-family: 'Lato', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color:var(--primary-color) ;
 }
 
-.Contenedor.abrir .Paginas .expander {
-  background-color: 7CC0A8;
-  width: 194px;
-  height: 40px;
-  border-bottom: 1px solid black;
+ul {
+  list-style-type: none;
 }
 
-.Contenedor.abrir .Paginas .All {
-  background-color: 7CC0A8;
-  width: 194px;
-  border-bottom: 1px solid black;
-}
-
-.Contenedor.abrir .Paginas a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 5px;
-  padding-bottom: 5px;
+a {
   text-decoration: none;
-  font-size: 29px;
-  color: white;
-  text-align: center;
+  color: #333;
 }
-/* fin menu */
-/* Inicio de logotipo */
-.franja10 {
-    background-image: url("/wpimages/conocenos/conocenos-header1.jpg");
-    background-size: cover;
-    background-size: cover;
-    background-size: cover;
-    /* height: 300px; */
+
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+:root {
+  --primary-color:#3B9BB1;
+ 
+}
+
+.logo img{
+
+  height:250px ;
+  width:500px; 
+  
   }
 
-  .franja10 .conocenosf {
+
+
+
+.navbar {
+  background-color: var(--primary-color);
+   color: #fff;
+  height: 60px; 
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 10px;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  border-bottom: 2px #fff solid;
+  
+}
+
+.navbar .flex {
+  justify-content: center;
+}
+.navbar img{
+
+height: 200px;
+
+
+}
+
+
+/* Inicio de logotipo */
+/* .franjaheader img {
+/* arregalr esta mierda */
+  /* }  */
+/* .franjaheader{
+  background-image:url("/wpimages/conocenos/conocenos-header1.jpg") ;
+
+} */
+  /* .franjaheader .conocenosf {
     height: 500px;
-    width: 500px;
+    width: 100px;
     margin-top: -10%;
-  }
+  } */
 
   /* inicio del body */
   /* gris */

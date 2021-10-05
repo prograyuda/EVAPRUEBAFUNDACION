@@ -17,38 +17,54 @@
 </head>
 
 <body>
-    <!-- menu -->
-    <menu>       
-        <div class="Contenedor">
-        <div class="Paginas">
-         <div class="expander"></div>
-         
-         <a href="programas.html">Programas</a>
-         <div class="All"></div>
-         <a href="servicios.html">Servicios</a>
-         <div class="All"></div>
-         <a href="testimonios.html">Testimonios</a>
-         <div class="All"></div>
-         <a href="donaciones.html">Donaciones</a>
-         <div class="All"></div>
-         <a href="contactenos.html">Contáctanos</a>
-        </div>
-        <div class='Lineas'>
-          <span></span>
-          <span></span>
-          <span></span>
-         </div>
-       </div>
-        <!--hambuerger icon  -->
-<script src="js/menu.js"></script>
-       </menu>
-    <!-- fin menu -->
-    
-     <!-- Inicio del header -->
-     <div class="franja10">
-        <img class="conocenosf" src="wpimages/conocenos/Logotipo en fondo celeste_Mesa de trabajo 1 copia 3.svg" alt="logocelestefubdacioñnEVA">
-        </div>
-<!-- fin del header -->
+	<!-- para cargar la pagina -->
+	<script type="text/javascript">
+		window.onload = function(){
+			var contenedor = document.getElementById('contenedor_carga');
+			contenedor.style.visibility = 'hidden';
+			contenedor.style.opacity = '0'; 
+		}
+	</script>
+        <!-- Inicio del header -->
+	<div id="contenedor_carga"><div id="carga"></div></div>
+    <div class="franjaheader">
+        <div class="logo">	
+            <center>
+           <picture>
+            <img src="/wpimages/homepage/LOGO.svg" alt="logofundaeva">
+            </picture>
+           </center>
+        <picture>
+            <img src="/wpimages/conocenos/conocenos-header1.jpg" alt="franja1">
+            </picture>
+</div>
+</div>
+<div class="menu-btn">
+  <div class="menu-btn__burger"></div>
+</div>
+      <!-- Navbar -->
+      <script src="/js/menu.js"></script>
+      <div class="navbar">
+          <div class="container flex">
+              <nav class="menu-navegacion">
+                  <ul>
+                      <li><a href="index.html">Conocenos</a></li>
+                      <li><a href="features.html">Conctáctenos</a></li>
+                      <li><a href="features.html">Donaciones</a></li>
+                      <li><a href="features.html">Programas</a></li>
+                      <li><a href="docs.html">Servicios</a></li>
+                      <li><a href="docs.html">Testimonios</a></li>
+                      <div class="linea"></div>
+                  </ul>
+              </nav>
+          </div>
+      </div>
+ 
+    <!-- fin del header -->
+<!-- nav barr -->
+<!-- menu
+
+
 
 <!-- inicio del body -->
 <div class="gris">
@@ -132,12 +148,6 @@
 
 </div>
 
-<div class="gris-oscuro2">
-    <!-- <img class="oscuro44" src="wpimages/conocenos/gris-oscuro2.jpg" alt=""> -->
-
- 
-
-</div>
 
 <!-- <div class="ilustracion56">
     <img src="/img/ilustracion-definitva.jpg" alt="">
