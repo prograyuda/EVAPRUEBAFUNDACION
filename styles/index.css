@@ -127,8 +127,9 @@ p {
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 :root {
-  --primary-color:#3B9BB1;
- 
+  --primary-color:black;
+ /* codigo
+ celeste:  #3B9BB1*/
 }
 
 
@@ -388,16 +389,7 @@ min-height: 900px;
  }
 
 
-.franja2 .button {
-  background-color: #405884;
-  margin-top: -500px;
-  top: 200px;
-  border-style: solid;
-  border-color: #405884;
-  width: 220px;
-  height: 60px;
-  border-radius: 800px;
-}
+
 /* fin franja2 */
 
 }
@@ -424,7 +416,8 @@ min-height: 900px;
 /* fin fraja 1 */
 
 /* franja2 */
-#franja2{
+
+/* #franja2{
   
   height: -100px;
   z-index: 1;
@@ -453,7 +446,7 @@ align-content: center;
 .franja2 button{
   align-items: center;
   left:140px;
-}
+} */
  
 /* fin franja2 */
 /* franja 3 */
