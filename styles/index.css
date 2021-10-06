@@ -424,8 +424,11 @@ min-height: 900px;
 /* fin fraja 1 */
 
 /* franja2 */
-.franja2{
+#franja2{
+  
+  height: -100px;
   z-index: 1;
+
 }
 
 .franja2 .textosegundo h1 {
@@ -438,13 +441,19 @@ font-size: 40px;
   top: -1700px;
 
  }
- /* .franja2 .button{
-/* position: absolute;
-top: 1200px;
-left: 100px; */
+.franja2 .boton-quienes-somos{
 
 
-/*}
+  position: absolute;
+top: 1050px;
+align-content: center;
+
+
+}
+.franja2 button{
+  align-items: center;
+  left:140px;
+}
  
 /* fin franja2 */
 /* franja 3 */
@@ -453,11 +462,7 @@ height: 500px;
 
 }
 
-.franja3 .texto1 .imagen1  {
-  width: 100%;
-  height: 20%;
 
-}
 
 .franja3  .contenedor {
   width: 70%;
@@ -465,11 +470,18 @@ height: 500px;
   height: 40%;
   padding-top:100px;
 }
+
 /* letras */
-
-.franja3 .texto1{
-
+.franja3 .texto1 html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
 }
+
+.franja3 .texto1 .imagen1 {
+  width: 100%;
+  height: 400%;
+}
+
 /* fin franja 3*/
   /* hamburger menu */
 
