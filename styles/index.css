@@ -361,6 +361,36 @@ max-width: 100%;
 top: 900px;
 
 }
+/* fin franja3 */
+
+/* franja 4 */
+#franja4{
+  background-image: url("/wpimages/homepage/franja4.jpg");
+background-size: cover;  
+height: 800px;
+max-width: 100%;
+  }
+  #franja4 h1{
+color: white;
+font-size: 300%;
+font-family: bariol_bold-webfont;
+padding-top: 20%;
+  }
+#franja4 .boton{
+  background-color: #405884;
+  margin-top: 60px;
+  border-style: solid;
+  border-color: #405884;
+  width: 220px;
+  height: 60px;
+  border-radius: 800px;
+  font-family: bariol_regular-webfont;
+color: white;
+font-size: 28px;
+top: 200px;
+}
+
+/* fin de la franja4 */
 
 .footer{
   background: white;
@@ -422,7 +452,6 @@ top: 900px;
 
 
 
-/* fin franja3 */
 @media (min-width:1024px) and (max-width:1440px){
 /* franja1 */
 .franja1 .imgf{
@@ -545,8 +574,9 @@ height: 700px;
 /* fin carrusel 2 */
 /* fin franja 3*/
 
+ /* franja 4 */
 
-
+/* fin de franja 4 */
   /* hamburger menu */
 
     .menu-btn {
