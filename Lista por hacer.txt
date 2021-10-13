@@ -1,3 +1,4 @@
 Lista por hacer
 Arregalar franja4 responisbe
 
+Ajustar carruceles a la version responisve
