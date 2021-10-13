@@ -236,12 +236,15 @@ max-width: 100%;
 /* franja3 */
 .franja3 {
   background-image: url("/wpimages/homepage/Franaja3puntos.jpg");
-  background-size: cover;
-  background-size: cover;
-  background-size: cover;
-  height: 2000px;
+background-size: cover;
+max-height: 100%;
 }
 
+ .franjafinal3{
+max-width: 100%;
+background-size: cover;
+/* background-repeat: none ; */
+}
 .franja3 .texto1 h2 {
   font-size: 300%;
   font-family: bariol_bold-webfont;
