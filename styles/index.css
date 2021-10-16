@@ -370,7 +370,7 @@ top: 900px;
 #franja4{
   background-image: url("/wpimages/homepage/franja4.jpg");
 background-size: cover;  
-height: 800px;
+height: 1600px;
 max-width: 100%;
   }
   #franja4 h1{
@@ -490,9 +490,57 @@ min-height: 900px;
   border-radius: 800px;
 }
 /* fin franja2 */
+/* franja 4 */
+#franja4{
+height: 900px;
 
+  }
+/* franja4 */
 }
+@media(max-width:768px) {
+  /* franja 3 */
+/* carrusel1 */
+.franja3 {
+  height: 950px;
+  
+  }
+   #franja3 .texto1 h2  {
+  top: 90px;
+  font-size: 30px;
+  
+   }
+   #franja3 .contenedor{
+  top: 40px;
+    
+    }
+  #franja3 .contenedor .botones {
+  font-size: 55px;
+  }
+  /*  fin carrusel1 */
+  
+  /* Carrusel2 */
+  #franja3 .texto2 h2  {
+    top: 90px;
+    font-size: 30px;
+    
+     }
+     #franja3 .contenedor2{
+    top: 40px;
+      
+      }
+    #franja3 .contenedor2 .botones2 {
+    font-size: 55px;
+    }
+  /* Carrusel2 fin */
+  /* fin franja 3*/
+  #franja4 .estructuraf4{
+    position: relative;
+    top: 500px;
+  
+  }
 
+  
+}
 
 
 @media(max-width: 500px){
@@ -549,31 +597,70 @@ left: 7px;
 height: 700px;
 
 }
-.franja3 .contenedor .botones{
-  font-size: 50px;
+ #franja3 .texto1 h2  {
+top: 90px;
+font-size: 30px;
+
+ }
+ #franja3 .contenedor{
+top: 40px;
+  
+  }
+#franja3 .contenedor .botones {
+font-size: 55px;
 }
-/* letras */
+/*  fin carrusel1 */
 
-.franja3 .texto1 .imagen1  {
-  width: 100%;
-  height: 20%;
-
-}
-
-.franja3 .contenedor2 .botones2{
-  font-size: 50px;
-  top: -65px;
-}
-/* letras */
-
+/* Carrusel2 */
+#franja3 .texto2 h2  {
+  top: 90px;
+  font-size: 30px;
+  
+   }
+   #franja3 .contenedor2{
+  top: 40px;
+    
+    }
+  #franja3 .contenedor2 .botones2 {
+  font-size: 55px;
+  }
+/* Carrusel2 fin */
 /* fin franja 3*/
+.franjafinal3{
+  
+    max-width: 100%;
+    height:100%;
+  /* background-repeat: none ; */
+  }
 
  /* franja 4 */
+ #franja4{
+height: 450px;
+
+
+ }
+#franja4 h1{
+font-size: 30px;
+}
+#franja4 .estructuraf4{
+position: relative;
+  top: 50px;
+
+}
+#franja4 .boton{
+height: 30px;
+width:80px;
+font-size: 10px;
+}
 
 
 /* fin de franja 4 */
-  /* hamburger menu */
 
+
+
+
+
+  /* hamburger menu */
     .menu-btn {
       position: fixed;
       z-index: 10;
