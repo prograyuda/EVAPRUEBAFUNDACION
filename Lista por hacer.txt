@@ -2,3 +2,4 @@ Lista por hacer
 Arregalar franja4 responisbe
 
 Ajustar carruceles a la version responisve
+ modo responsive tablet arreglar frnaja 4esta muy grande
