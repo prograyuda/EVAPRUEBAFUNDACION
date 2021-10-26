@@ -43,7 +43,6 @@
   #franjaheader{
 background-color: var(--primary-color);
 
-
   }
 #franjaheader .logo .logoceleste{
 	height:250px ;
@@ -121,6 +120,8 @@ background-color: var(--primary-color);
   /* fin del encabezado del menu */
 
   #franja1 .franja0{
+background-image: url('/wpimages/conocenos/conocenos-header1.jpg');
+background:cover;
 	max-width: 100%;
 }
   #franja1{
@@ -236,3 +237,17 @@ max-width:100%;
   
 
  /* fin footer */
+
+ /* mobile */
+ @media (max-width:500px) {
+body {
+	box-sizing:content-box;
+
+
+}
+#franja1 .franja0{
+max-width:100%;
+
+}
+	 
+ }
