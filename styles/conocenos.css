@@ -4,11 +4,7 @@
     padding: 0;
     margin: 0;
   }
-  body{
- background-color: var(--colorgris);
 
-
-  }
   
 
 /* para cargar la pagina */
@@ -73,7 +69,6 @@ background-color: var(--primary-color);
 	font-family: 'Lato', sans-serif;
 	color: #333;
 	line-height: 1.6;
-	background-color:var(--primary-color) ;
   }
   
   ul {
@@ -141,3 +136,103 @@ background-color: var(--primary-color);
 	  font-size :25px;
 	  width:50%;
   }
+/* franja 2 */
+#Franja2{
+	background-color: var(--colorgrisoscuro);
+	font-family: bariol_bold-webfont ;
+	color: #fff;
+}
+#Franja2 h1{
+	font-size:35px;
+
+
+}
+
+#Franja2 .imgfranja2{
+
+max-width:100%;
+
+
+ }
+ #Franja2 p{
+	font-family: bariol_light-webfont;
+	font-size :25px;
+	width:50%;
+}
+
+
+
+
+#Franja2 .imgbota{
+
+width:500px;
+
+
+
+}
+ /* franja2 */
+/* franja fin */
+.franjablanca {
+max-width:100%;
+
+
+}
+/* franja fin */
+
+ /* footer */
+ .footer{
+	background: white;
+	top: -7px;
+	position: relative;
+	
+  }
+  
+  .footer .social a {
+	margin: 0 10px;
+  }
+  
+  .fa-youtube:hover {
+	color: #af1515;
+  }
+  
+  .fa-facebook:hover {
+	color: #1773EA;
+  }
+  
+  .fa-instagram:hover {
+	color: #B32E87;
+  }
+  
+  .fa-linkedin:hover {
+	color: #1C9CEA;
+  }
+  
+  .fa-envelope:hover {
+	color: rgb(151, 179, 51);
+  }
+  
+  .containerfooter {
+	max-width: 1200px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 0 40px;
+  }
+  
+  .gridfooter  {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	justify-content: center;
+	font-family: bariol_bold-webfont;
+	font-size: 50%;
+	text-align:center;
+	align-items: center;
+	height: 100%;
+  }
+  
+  .grid-3footer {
+	grid-template-columns: repeat(3, 1fr);
+  }
+  
+
+ /* fin footer */
