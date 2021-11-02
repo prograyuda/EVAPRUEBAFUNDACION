@@ -1,8 +1,9 @@
-
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
   }
 
   
@@ -240,14 +241,21 @@ max-width:100%;
 
  /* mobile */
  @media (max-width:500px) {
-body {
-	box-sizing:content-box;
-
-
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		text-decoration: none;
+		font-family: 'Poppins', sans-serif;
+	  }
+#id{
+	display: none;
 }
+
 #franja1 .franja0{
 max-width:100%;
 
 }
+
 	 
  }
