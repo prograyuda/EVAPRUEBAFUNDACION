@@ -1,10 +1,15 @@
-
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
   }
+  body{
+ background-color: var(--colorgris);
 
+
+  }
   
 
 /* para cargar la pagina */
@@ -69,6 +74,7 @@ background-color: var(--primary-color);
 	font-family: 'Lato', sans-serif;
 	color: #333;
 	line-height: 1.6;
+	background-color:var(--primary-color) ;
   }
   
   ul {
@@ -235,4 +241,23 @@ max-width:100%;
   }
   
 
+
  /* fin footer */
+
+ /* mobile */
+ @media (max-width:500px) {
+
+#id{
+	display: none;
+}
+
+#franja1 .franja0{
+max-width:100%;
+
+}
+
+	 
+ }
+
+ /* fin footer */
+
