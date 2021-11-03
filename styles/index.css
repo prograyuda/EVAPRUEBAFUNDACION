@@ -540,12 +540,14 @@ height: 900px;
     }
   /* Carrusel2 fin */
   /* fin franja 3*/
-  #franja4 .estructuraf4{
-    position: relative;
-    top: 500px;
-  
+  /* franja4 */
+  #franja4{
+background-size: cover;
+height:500px;
+width:100%;
   }
 
+/* fin de franja4 */
   
 }
 
@@ -650,7 +652,7 @@ height: 450px;
 font-size: 30px;
 }
 #franja4 .estructuraf4{
-position: absolute;
+
   top: 75px;
 
 }
