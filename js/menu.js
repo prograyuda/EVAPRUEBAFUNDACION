@@ -1,4 +1,4 @@
-console.log('hello world');
+console.log('menu-mobile');
 const menuBtn = document.querySelector('.menu-btn');
 let menuOpen = false;
 menuBtn.addEventListener('click', () => {
@@ -40,3 +40,7 @@ menuBtn.addEventListener('click', () => {
 			contenedor.style.opacity = '0';
       console.log('Barra de carga'); 
 		}
+
+    window.addEventListener('scroll', () => {
+      document.documentElement.style.setProperty('--scroll-y', `${window.scrollY}px`);
+    });
