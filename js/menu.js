@@ -41,6 +41,3 @@ menuBtn.addEventListener('click', () => {
       console.log('Barra de carga'); 
 		}
 
-    window.addEventListener('scroll', () => {
-      document.documentElement.style.setProperty('--scroll-y', `${window.scrollY}px`);
-    });
