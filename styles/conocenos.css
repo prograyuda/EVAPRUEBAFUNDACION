@@ -40,15 +40,7 @@
 /* fin para cargar la pagina */
 
   /* parte del encabezado donde esta el menu */
-  #franjaheader{
-background-color: var(--primary-color);
 
-
-  }
-#franjaheader .logo .logoceleste{
-	height:250px ;
-	width:500px; 
-}
 
 /* menu */
 .container {

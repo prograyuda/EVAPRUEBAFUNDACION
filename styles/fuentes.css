@@ -43,5 +43,150 @@
    --colorgris:#c4cac8;
   --colorgrisoscuro:#9b9d9c;
   }
+/* menu principal */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color:var(--primary-color) ;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+:root {
+  --primary-color:#3B9BB1;
+ 
+}
+
+.navbar {
+  background-color: var(--primary-color);
+   color: #fff;
+  height: 60px; 
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 10px;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  border-bottom: 2px #fff solid;
+  
+}
+
+.navbar .flex {
+  justify-content: center;
+}
+.navbar img{
+
+height: 200px;
 
 
+}
+/*  fin del menu principal*/
+/* Logo celeste */
+#franjaheader{
+  background-color: var(--primary-color);
+  
+  
+    }
+  #franjaheader .logo .logoceleste{
+    height:250px ;
+    width:500px; 
+  }
+
+/* fin del logo celeste */
+/* footer */
+
+.footer{
+  background: white;
+}
+
+.footer .social a {
+  margin: 0 10px;
+}
+
+.fa-youtube:hover {
+  color: #af1515;
+}
+
+.fa-facebook:hover {
+  color: #1773EA;
+}
+
+.fa-instagram:hover {
+  color: #B32E87;
+}
+
+.fa-linkedin:hover {
+  color: #1C9CEA;
+}
+
+.fa-envelope:hover {
+  color: rgb(151, 179, 51);
+}
+
+.containerfooter {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+
+.gridfooter  {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  font-family: bariol_bold-webfont;
+  font-size: 50%;
+  text-align:center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid-3footer {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* fin de footer */

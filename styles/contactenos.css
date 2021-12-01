@@ -4,57 +4,47 @@
   padding: 0;
 }
 
-/*Titulos*/
-@font-face {
-    font-family:bariol_regular-webfont;
-    src: url(/Fonts/bariol_regular-webfont.ttf);
-  }
-  
-  /*letra de boton*/
-  @font-face {
-    font-family: bariol_bold-webfont;
-    src: url(/Fonts/bariol_bold-webfont.ttf);
-  }
 
 body {
   margin: 0%;
   padding: 0%;
+  background-color: white;
 }
 
-.franja1 {
-    background-image: url("/wpimages/contactenos/contactenosheader.jpg");
-    background-size: cover;
-    background-size: cover;
-    background-size: cover;
-    height: 300px;
+.franja0 {
+    max-width: 100%;
   }
   
-  .franja1 .conocenosf {
+  /* .franja1 .conocenosf {
     height: 500px;
     width: 500px;
     margin-top: -10%;
   }
-  
-  .franja2 .textosegundo h1 {
+   */
+   #franja1{
+background-color: white;
+
+   }
+  .franja1 .textosegundo h1 {
     position:unset;
-    margin-left: 38%;
+    
     padding-top: 100px;
     padding-bottom: 5px;
     color: black;
     font-size: 40px;
-    font-family:bariol_regular-webfont;
+    font-family:bariol_bold-webfont;
   }
   
-  .franja2 .textosegundo h2 {
-    margin-left: 41%;
+  .franja1 .textosegundo h2 {
+  
     padding-top: 8px;
     padding-bottom: 5px;
     color: black;
     font-size: 22px;
     font-family:bariol_regular-webfont;
   }
-  .franja2 .textosegundo h3 {
-    margin-left: 23%;
+  .franja1 .textosegundo h3 {
+   
     padding-top: 8px;
     padding-bottom: 5px;
     color: black;
@@ -62,8 +52,8 @@ body {
     font-family:bariol_regular-webfont;
   }
 
-  .franja2 .textosegundo h4 {
-    margin-left: 37%;
+  .franja1 .textosegundo h4 {
+
     padding-top: 8px;
     padding-bottom: 5px;
     color: black;
@@ -278,13 +268,10 @@ body {
   }
   
   /*FIN FORMULARIO*/
-
-
-  .footerF {
-    background-image: url("/wpimages/contactenos/footer1\ \(1\).jpg");
-    background-size: cover;
-    background-size: cover;
-    background-size: cover;
-    height: 300px;
-    padding-top: 20px;
+  /* footer */
+  footer picture .img{
+    max-width:100%;
   }
+/* fin de footer */
+
+  
