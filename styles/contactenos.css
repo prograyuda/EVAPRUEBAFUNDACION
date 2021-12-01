@@ -21,7 +21,7 @@ body {
   padding: 0%;
 }
 
-.franja10 {
+.franja1 {
     background-image: url("/wpimages/contactenos/contactenosheader.jpg");
     background-size: cover;
     background-size: cover;
@@ -29,7 +29,7 @@ body {
     height: 300px;
   }
   
-  .franja10 .conocenosf {
+  .franja1 .conocenosf {
     height: 500px;
     width: 500px;
     margin-top: -10%;
