@@ -12,15 +12,12 @@
 </head>
 
 <body>
-	<!-- para cargar la pagina -->
-	<script type="text/javascript">	
-		window.onload = function(){
-			var contenedor = document.getElementById('contenedor_carga');
-			contenedor.style.visibility = 'hidden';
-			contenedor.style.opacity = '0'; 
-		}
-	</script>
-	<div id="contenedor_carga"><div id="carga"></div></div>
+
+	<div id="contenedor_carga">
+		<div id="carga">
+		</div>
+		<img class="cargaimg"src="/wpimages/carga/logogi.png" alt="carga">
+	</div>
   <div class="logo">
  <center>
 <picture>
@@ -29,14 +26,20 @@
 </center>
 <!-- menu -->
   </div>
-  <div class="menu-btn">
-    <div class="menu-btn__burger"></div>
-  </div>
+
+  <div class="menu-btn ">
+	<div class="menu-btn__burger" id="pause" ></div>
+
+  </div >
 		<!-- Navbar -->
-		<script src="/js/menu.js"></script>
+
+		<script src="js/menu.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	
+
 		<div class="navbar">
-			<div class="container flex">
-				<nav class="menu-navegacion">
+			<div class="container flex ">
+				<nav  class="menu-navegacion">
 					<ul>
 						<li><a href="conocenos.html">Conocenos</a></li>
 						<li><a href="contactanos.html">Conctáctenos</a></li>
@@ -46,11 +49,15 @@
 						<li><a href="testimonios.html">Testimonios</a></li>
 						<div class="linea"></div>
 					</ul>
-				</nav>
-			</div>
 
+				</nav>
+
+			</div>
+	  
 		</div>
-		
+		<script  src="js/scroll-down.js"></script>
+	
+
 <!-- nav barr -->
 <!-- menu -->
 
@@ -87,12 +94,6 @@
 	 </div>
 	</section>
 <!-- fin franja2 -->
-
-
-
-<!--Arreglar esta franja en responsive  -->
-<!-- Hola ALV -->
-<!-- Probar esto si ya sirve en todos los git -->
 
 <!-- franja3 -->
 <section id="franja3">
@@ -133,10 +134,10 @@
   </center>
   </div>
 <!-- fin de la franja 3 -->
-<img class="franjafinal3"src="/wpimages/homepage/franja3final.jpg" alt="faranjafinal">
+<img class="franjafinal3"src="/wpimages/homepage/franja3final.jpg" alt="franjafinal">
  </section>
 
-
+ 
 <!-- inicio de franaja4 -->
 <section id="franja4">
 	<div class="franja4">

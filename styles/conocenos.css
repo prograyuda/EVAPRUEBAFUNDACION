@@ -1,287 +1,424 @@
-@charset "UTF-8";
+
 * {
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
   
+
+/* para cargar la pagina */
+
+  #contenedor_carga{
+	background-color:rgba(248, 245, 245, 0.897);
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	-webkit-transition: all  1s ease;
+	-o-transition: all  1s ease;
+	transition: all  1s ease;
+	z-index: 10000;
 }
-/*Titulos*/
-@font-face {
-  font-family:bariol_regular-webfont;
-  src: url(/Fonts/bariol_regular-webfont.ttf);
+#carga{
+	border: 15px solid var(--colormorado);
+	border-top-color:var(--primary-color);
+	border-top-style: groove;
+	height: 100px;
+	width:  100px;
+	border-radius: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	-webkit-animation: girar 1.5s linear infinite;
+	-o-animation: girar 1.5s linear infinite;
+	animation: girar 1.5s linear infinite;
 }
+
+/* fin para cargar la pagina */
+
+  /* parte del encabezado donde esta el menu */
+  #franjaheader{
+background-color: var(--primary-color);
+
+
+  }
+#franjaheader .logo .logoceleste{
+	height:250px ;
+	width:500px; 
+}
+
+/* menu */
 .container {
-  max-width: 900px;
-  margin: 0 auto;
-  overflow: auto;
-  padding: 0 40px;
-}
-
-.flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
-body {
-  font-family: 'Lato', sans-serif;
-  color: #333;
-  line-height: 1.6;
-  background-color:var(--primary-color) ;
-}
-
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  color: #333;
-}
-
-h1,
-h2 {
-  font-weight: 300;
-  line-height: 1.2;
-  margin: 10px 0;
-}
-
-p {
-  margin: 10px 0;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-
-:root {
-  --primary-color:#3B9BB1;
- 
-}
-
-.logo img{
-
-  height:250px ;
-  width:500px; 
-  
+	max-width: 900px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 0 40px;
   }
-
-
-
-
+  
+  .flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+  }
+  
+  body {
+	font-family: 'Lato', sans-serif;
+	color: #333;
+	line-height: 1.6;
+  }
+  
+  ul {
+	list-style-type: none;
+  }
+  
+  a {
+	text-decoration: none;
+	color: #333;
+  }
+  
+  h1,
+  h2 {
+	font-weight: 300;
+	line-height: 1.2;
+	margin: 10px 0;
+  }
+  
+  p {
+	margin: 10px 0;
+  }
+  
 .navbar {
-  background-color: var(--primary-color);
-   color: #fff;
-  height: 60px; 
-}
-
-.navbar ul {
-  display: flex;
-}
-
-.navbar a {
-  color: #fff;
-  padding: 10px;
-  margin: 5px;
-  font-size: 20px;
-}
-
-.navbar a:hover {
-  border-bottom: 2px #fff solid;
-  
-}
-
-.navbar .flex {
-  justify-content: center;
-}
-.navbar img{
-
-height: 200px;
-
-
-}
-
-
-/* Inicio de logotipo */
-/* .franjaheader img {
-/* arregalr esta mierda */
-  /* }  */
-/* .franjaheader{
-  background-image:url("/wpimages/conocenos/conocenos-header1.jpg") ;
-
-} */
-  /* .franjaheader .conocenosf {
-    height: 500px;
-    width: 100px;
-    margin-top: -10%;
-  } */
-
-  /* inicio del body */
-  /* gris */
-  .gris {
-    background-image: url("/wpimages/conocenos/conocenosbody1.jpg");
-    background-size: cover;
-    background-size: cover;
-    background-size: cover;
-    height: 890px;
-    padding-top: 100px;
-    width: 100%;
-   
-  }
-  .gris h1{
-    font-size: 50px;
-    font-family:bariol_regular-webfont ;
-    color: white ;
-    /* margin-left: 500px; */
-    margin-top: -100px;
-    /* text-align: justify; */
-
-}
-.gris h2{
-    font-size: 50px;
-    font-family:bariol_regular-webfont ;
-    color: white ;
-    /* margin-left: 550px; */
-    margin-top: 80px;
-
-}
-
-.gris h3{
-    font-size: 50px;
-    font-family:bariol_regular-webfont ;
-    color: white ;
-    /* margin-left: 550px; */
-    margin-top: 30px;
-
-}
-
-.gris p{
-  font-size: 30px;
-  font-family:bariol_regular-webfont ;
-  color: white ;
-  /* margin-left: 110px; */
-  margin-top: 10px;
-  text-align:center;
-  margin-left: 230px;
-  margin-right: 230px;
-}
-
-.gris .linea-gris{
-  background-image: url("/wpimages/conocenos/header-body2.jpg");
-height: 100px;
-background-size: cover;
-background-size: cover;
-background-size: cover;
- /* width: 100%; */
-}
-/* fin gris */
-
-/* gris oscuro */
-.gris-oscuro {
-    background-image: url("/wpimages/conocenos/franja2cono.jpg");
-    background-size: cover;
-    background-size: cover;
-    background-size: cover;
-    height: 2500px;
-    padding-top: 100px;
-    font-size: 30px;
-    width: 100%;
-   
-  }
-
-.gris-oscuro2 {
-    
-    background-size: cover;
-    background-size: cover;
-    background-size: cover;
-    height: 300px;
-    padding-top: -100px;
-    font-size: 30px;
-    width: 100%;
-   
+	background-color: var(--primary-color);
+	 color: #fff;
+	height: 60px; 
   }
   
-.gris-oscuro h1{
-    font-size: 40px;
-    font-family:bariol_regular-webfont ;
-    color: white ;
-    /* margin-left: 550px; */
-    margin-top: 100px;
-    text-align:center;
-    margin-left: 230px;
-    margin-right: 230px;
-
-}
-
-.gris-oscuro h2{
-  font-size: 40px;
-  font-family:bariol_regular-webfont ;
-  color: white ;
-  /* margin-left: 550px; */
-  margin-top: 20px;
-  text-align:center;
-  margin-left: 280px;
-  margin-right: 280px;
-
-}
-
-
-.gris-oscuro p{
-    font-size: 30px;
-    font-family:bariol_regular-webfont ;
-    color: white ;
-    
-    margin-top: 10px; 
-    text-align:center;
-    margin-left: 280px;
-    margin-right: 280px;
-}
-
-.gris-oscuro2 p{
-  
-  font-size: 25px;
-  font-family:bariol_regular-webfont ;
-  color: white ;
-  /* margin-left: 110px; */
-  
- 
-  text-align:center;
-  margin-left: 230px;
-  margin-right: 230px;
-}
-
-.gris-oscuro2 {
-    
-    background-size: cover;
-    background-size: cover;
-    background-size: cover;
-    height: 300px;
-    padding-top: -100px;
-    font-size: 30px;
-    width: 100%;
-   
+  .navbar ul {
+	display: flex;
   }
   
-.gris-oscuro2 h2{
-    font-size: 40px;
-    font-family:bariol_regular-webfont ;
-    color: white ;
-    /* margin-left: 550px; */
-    margin-top: -780px;
+  .navbar a {
+	color: #fff;
+	padding: 10px;
+	margin: 5px;
+	font-size: 20px;
+  }
+  
+  .navbar a:hover {
+	border-bottom: 2px #fff solid;
+	
+  }
+  
+  .navbar .flex {
+	justify-content: center;
+  }
+/* fin del menu */ 
+
+  /* fin del encabezado del menu */
+
+  #franja1 .franja0{
+	max-width: 100%;
+}
+  #franja1{
+	  background-color:var(--colorgris);
+	  font-family: bariol_bold-webfont ;
+	  color: #fff;
+  }
+  #franja1 h1{
+	  font-size:35px;
+  }
+  #franja1 p{
+	  font-family: bariol_light-webfont;
+	  font-size :25px;
+	  width:50%;
+  }
+/* franja 2 */
+#Franja2{
+	background-color: var(--colorgrisoscuro);
+	font-family: bariol_bold-webfont ;
+	color: #fff;
+}
+#Franja2 h1{
+	font-size:35px;
+
 
 }
 
+#Franja2 .imgfranja2{
 
-.gris-oscuro2 p{
-  font-size: 25px;
-  font-family:bariol_regular-webfont ;
-  color: white ;
-  /* margin-left: 110px; */
-  margin-top: 30px;
-  text-align:initial;
-  text-align: center;
+max-width:100%;
+
+
+ }
+ #Franja2 p{
+	font-family: bariol_light-webfont;
+	font-size :25px;
+	width:50%;
 }
 
 
 
-/* fin gris oscuro */
 
-  /* fin del body */
+#Franja2 .imgbota{
+
+width:500px;
+
+
+
+}
+ /* franja2 */
+/* franja fin */
+.franjablanca {
+max-width:100%;
+
+
+}
+/* franja fin */
+
+ /* footer */
+ .footer{
+	background: white;
+	top: -7px;
+	position: relative;
+	
+  }
+  
+  .footer .social a {
+	margin: 0 10px;
+  }
+  
+  .fa-youtube:hover {
+	color: #af1515;
+  }
+  
+  .fa-facebook:hover {
+	color: #1773EA;
+  }
+  
+  .fa-instagram:hover {
+	color: #B32E87;
+  }
+  
+  .fa-linkedin:hover {
+	color: #1C9CEA;
+  }
+  
+  .fa-envelope:hover {
+	color: rgb(151, 179, 51);
+  }
+  
+  .containerfooter {
+	max-width: 1200px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 0 40px;
+  }
+  
+  .gridfooter  {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	justify-content: center;
+	font-family: bariol_bold-webfont;
+	font-size: 50%;
+	text-align:center;
+	align-items: center;
+	height: 100%;
+  }
+  
+  .grid-3footer {
+	grid-template-columns: repeat(3, 1fr);
+  }
+  
+
+ /* fin footer */
+
+ /* Responsive*/
+@media (max-width: 500px) {
+	#franjaheader .logo .logoceleste{
+width:90%;
+	}
+	#Franja2 .imgbota{
+width:100%;
+	}
+
+	 /* hamburger menu */
+
+	 .menu-btn {
+		position: fixed;
+		z-index: 10;
+		top: 30px;
+		right: 30px;
+	   
+		width: 10px;
+		height: 1px;
+		cursor: pointer;
+		transition: all .5s ease-in-out;
+		z-index: 300;
+  
+		/* border: 3px solid #fff; */
+	  }
+	  .menu-btn__burger {
+		width: 35px;
+		height: 7px;
+		background: #fff;
+		border-radius: 78px;
+		box-shadow: 0 2px 5px rgba(255,101,47,.2);
+		transition: all .5s ease-in-out;
+	  }
+	  .menu-btn__burger::before,
+	  .menu-btn__burger::after {
+		content: '';
+		position: absolute;
+		width: 35px;
+		height: 7px;
+		background: #fff;
+		border-radius: 78px;
+		box-shadow: 0 2px 5px rgba(255,101,47,.2);
+		transition: all .5s ease-in-out;
+	  }
+	  .menu-btn__burger::before {
+		transform: translateY(-16px);
+	  }
+	  .menu-btn__burger::after {
+		transform: translateY(16px);
+	  }
+	  /* ANIMATION */
+	  .menu-btn.open .menu-btn__burger {
+		transform: translateX(-50px);
+		background: transparent;
+		box-shadow: none;
+	  }
+	  .menu-btn.open .menu-btn__burger::before {
+		transform: rotate(45deg) translate(35px, -35px);
+	  }
+	  .menu-btn.open .menu-btn__burger::after {
+		transform: rotate(-45deg) translate(35px, 35px);
+	  }
+	  
+	  
+	  
+	  .hamburguer {
+		position: fixed;
+  
+		top: 30px;
+		right: 30px;
+		background: gray;
+		width: 40px;
+		height: 40px;
+		cursor: pointer;
+		overflow: hidden;
+		-webkit-box-shadow: 0 0 6px #080808;
+				box-shadow: 0 0 6px #080808;
+	  }
+  
+  
+	  .menu-navegacion {
+		margin: 0;
+	   
+  z-index: 1;
+	  
+		position: fixed;
+		top: 0;
+		right: 0;
+		width: 100vw;
+		height: 100%;
+		background-color: #405886;
+	  
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+				flex-direction: column;
+		-webkit-box-pack: space-evenly;
+			-ms-flex-pack: space-evenly;
+				justify-content: space-evenly;
+		-webkit-box-align: center;
+			-ms-flex-align: center;
+				align-items: center;
+		-webkit-transition: -webkit-transform .3s ease-in-out;
+		transition: -webkit-transform .3s ease-in-out;
+		transition: transform .3s ease-in-out;
+		transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+		-webkit-transform: translate(110%);
+				transform: translate(110%);
+		-webkit-box-shadow: 0 0 6px #0e0d0d;
+				box-shadow: 0 0 6px #0e0d0d;
+	  }
+	  
+	  .spread {
+		-webkit-transform: translate(0);
+				transform: translate(0);
+	  }
+	  
+	  .menu-navegacion a {
+		text-decoration: none;
+	  }
+	  
+	  .titulo {
+		font-size: 60px;
+		margin-bottom: 15px;
+	  }
+	  
+	  .copy {
+		font-weight: 300;
+	  }
+	  /* letras dentro del menu */
+	  /* letras dentro del menu */
+	  nav{
+		display: none;
+	  }
+	  .menu-navegacion nav li{
+		display:flex;
+	  height: 0px;
+	 
+	  }
+	  
+	  nav a{
+	  color: white;
+	  text-decoration: none;
+	  margin-top: -100px;
+	  margin-right: 30px;
+	  font-size: 20px;
+	  align-items: center;
+	  }
+	  
+	
+	  .navbar a {
+		color: #fff;
+		padding: 3px;
+		margin: 5px;
+		font-size: 20px;
+	  }
+	  
+	  .navbar a:hover {
+		border-bottom: 2px #fff solid;
+		
+	  }
+	  .navbar .linea{
+	  height: 3px;
+	  width: 20px;
+	  display: flex;
+	  background-color: blanchedalmond;
+	  margin-top: 16px;
+	  
+	  }
+	  .navbar ul {
+		display: block;
+		margin-top: -200px;
+	  margin-right: 30px;
+	  } 
+	  /* finde  letras del menu */
+	  /* fin del hamburguer icon */
+  
+}
+
+
+
+ /*  fin del responsive */

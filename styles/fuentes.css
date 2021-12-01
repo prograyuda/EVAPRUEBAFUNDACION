@@ -37,56 +37,11 @@
   font-family: bariol_thin_italic-webfont;
   src: url(/Fonts/bariol_thin_italic-webfont.ttf);
 }
+:root {
+	--primary-color:#3B9BB1;
+   --colormorado:#405886;
+   --colorgris:#c4cac8;
+  --colorgrisoscuro:#9b9d9c;
+  }
 
-* {
-  background: blue;
-}
 
-h1 {
-  font-family: bariol_bold;
-  font-size: xx-large;
-  color: white;
-}
-
-h2 {
-  font-family: bariol_bold-webfont;
-  font-size: xx-large;
-  color: white;
-}
-
-h3 {
-  font-family: bariol_light-webfont;
-  font-size: xx-large;
-  color: white;
-}
-
-h4 {
-  font-family: bariol_light_italic-webfont;
-  font-size: xx-large;
-  color: white;
-}
-
-h5 {
-  font-family: bariol_regular-webfont;
-  font-size: xx-large;
-  color: white;
-}
-
-h6 {
-  font-family: bariol_regular_italic-webfont;
-  font-size: xx-large;
-  color: white;
-}
-
-h7 {
-  font-family: bariol_thin-webfont;
-  font-size: xx-large;
-  color: white;
-}
-
-h8 {
-  font-family: bariol_thin_italic-webfont;
-  font-size: xx-large;
-  color: white;
-}
-/*# sourceMappingURL=fuentes.css.map */

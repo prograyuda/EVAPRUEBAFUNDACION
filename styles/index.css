@@ -5,7 +5,7 @@
 }
 /* carga */
 #contenedor_carga{
-	background-color: rgba(250,240,245,0.9);
+	background-color:white;
 	height: 100%;
 	width: 100%;
 	position: fixed;
@@ -35,12 +35,24 @@
 	from{transform: rotate(0deg);}
 	to {transform: rotate(360deg);}
 }
+
+#contenedor_carga img{
+  -webkit-animation: 3s rotate linear infinite;
+  animation: 3s rotate linear infinite;
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+
+}
+
+@keyframes rotate {from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}}
+@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}}
+
 /* fin de carga */
 .logo img{
-
 height:250px ;
 width:500px; 
-
 }
 /* fuentes  */
 @font-face {
@@ -131,11 +143,6 @@ p {
  
 }
 
-
-
-
-
-
 .navbar {
   background-color: var(--primary-color);
    color: #fff;
@@ -185,14 +192,12 @@ max-width: 100%;
   font-family: bariol_bold-webfont;
   padding-top: 50px;
   padding-bottom: 0px;
-  position: relative;
   color: white;
 }
 
 
 .franja2 .textosegundo p {
   font-family: bariol_regular-webfont;
-  position: relative;
   left: -10px;
   margin-top: 15px;
   color: white;
@@ -272,6 +277,7 @@ background-size: cover;
   position: relative;
   height: 40%;
   padding-top: 20px;
+  z-index: 0;
 }
 
 .franja3 .texto1 .botones {
@@ -489,6 +495,7 @@ min-height: 900px;
   height: 60px;
   border-radius: 800px;
 }
+
 /* fin franja2 */
 /* franja 4 */
 #franja4{
@@ -533,12 +540,15 @@ height: 900px;
     }
   /* Carrusel2 fin */
   /* fin franja 3*/
-  #franja4 .estructuraf4{
-    position: relative;
-    top: 500px;
-  
+  /* franja4 */
+  #franja4{
+    height: 450px;
+
+
+
   }
 
+/* fin de franja4 */
   
 }
 
@@ -563,12 +573,8 @@ height: 900px;
 /* fin fraja 1 */
 
 /* franja2 */
-.franja2{
-  z-index: 1;
-}
 
 .franja2 .textosegundo h1 {
-
   align-items: center;
 font-size: 30px;
 }
@@ -587,11 +593,19 @@ left: 7px;
   font-size: 15px;
  
 }
-/* cambiar hover porque se hace grande */
+.franja2 button:hover {
+  height: 45px;
+  width: 100px;
+  border-radius: 900px;
+  background-color: rgb(red, green, blue);
+  transform: scale(0.97);
+
+}
 
 /* fin franja2 */
 
 /* franja 3 */
+
 /* carrusel1 */
 .franja3 {
 height: 700px;
@@ -643,8 +657,8 @@ height: 450px;
 font-size: 30px;
 }
 #franja4 .estructuraf4{
-position: relative;
-  top: 50px;
+
+  top: 75px;
 
 }
 #franja4 .boton{
@@ -661,6 +675,9 @@ font-size: 10px;
 
 
   /* hamburger menu */
+
+
+
     .menu-btn {
       position: fixed;
       z-index: 10;
@@ -672,13 +689,14 @@ font-size: 10px;
       cursor: pointer;
       transition: all .5s ease-in-out;
       z-index: 300;
+
       /* border: 3px solid #fff; */
     }
     .menu-btn__burger {
-      width: 30px;
+      width: 35px;
       height: 7px;
       background: #fff;
-      border-radius: 10px;
+      border-radius: 78px;
       box-shadow: 0 2px 5px rgba(255,101,47,.2);
       transition: all .5s ease-in-out;
     }
@@ -686,10 +704,10 @@ font-size: 10px;
     .menu-btn__burger::after {
       content: '';
       position: absolute;
-      width: 30px;
+      width: 35px;
       height: 7px;
       background: #fff;
-      border-radius: 10px;
+      border-radius: 78px;
       box-shadow: 0 2px 5px rgba(255,101,47,.2);
       transition: all .5s ease-in-out;
     }
@@ -716,25 +734,31 @@ font-size: 10px;
     
     .hamburguer {
       position: fixed;
-      z-index: 10;
+
       top: 30px;
       right: 30px;
       background: gray;
       width: 40px;
       height: 40px;
       cursor: pointer;
+      overflow: hidden;
       -webkit-box-shadow: 0 0 6px #080808;
               box-shadow: 0 0 6px #080808;
     }
-    
+
+
     .menu-navegacion {
+      margin: 0;
+     
+z-index: 1;
+    
       position: fixed;
       top: 0;
       right: 0;
-      width: 90vw;
+      width: 100vw;
       height: 100%;
       background-color: #405886;
-      z-index: 2;
+    
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -782,8 +806,8 @@ font-size: 10px;
     }
     .menu-navegacion nav li{
       display:flex;
-    height: 40px;
-    
+    height: 0px;
+   
     }
     
     nav a{
@@ -794,9 +818,18 @@ font-size: 10px;
     font-size: 20px;
     align-items: center;
     }
-    nav a :hover{
-    background-color: chartreuse;
-    height: 200px;
+    
+  
+    .navbar a {
+      color: #fff;
+      padding: 3px;
+      margin: 5px;
+      font-size: 20px;
+    }
+    
+    .navbar a:hover {
+      border-bottom: 2px #fff solid;
+      
     }
     .navbar .linea{
     height: 3px;
@@ -814,57 +847,10 @@ font-size: 10px;
     /* finde  letras del menu */
     /* fin del hamburguer icon */
 /* scroll ddown */
-.scroll-down{
-  height: 50px;
-width: 30px;
-border:  2px solid black;
-position: absolute;
-left: 50%;
-bottom: 20px;
-border-radius: 50px;
-cursor: pointer;
+
+
 }
 
-html{
-  scroll-behavior: smooth;
-}
-.scroll-down::before,
-.scroll-down::after{
-content: '';
-position: absolute;
-top: 10%;
-left: 50%;
-border: 2px solid black;
-height: 10px;
-width: 10px;
-transform: translate(-50%,-100%)rotate(45deg);
-border-top: transparent;
-border-left: transparent;
-animation: scroll-down 1s ease-in infinite
-}
-.scroll-down::after{
-  top: 30%;
-  animation-delay: .3s;
-}
-@keyframes scroll-down{
-  0%{
-    opacity: 0;
-  
-  }
-  30%{
-    opacity: 1;
-  
-  }
-  60%{
-    opacity: 1;
-  
-  }
-  100%{
-    opacity: 0;
-    top:90%;
-  }
-}
-/* fin de scroll down */
-    }
+
 
 /* como git huub no sirve */
