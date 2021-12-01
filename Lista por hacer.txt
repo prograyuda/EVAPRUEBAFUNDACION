@@ -1,6 +1,5 @@
 Lista por hacer
 Arregalar franja4 responisbe
 
-Ajustar carruceles a la version responisve
- modo responsive tablet arreglar frnaja 4esta muy grande
- arreglando del modo responsive el homepage el hamburger bug
+en la parte de los boton el hover en el homepage arreglar al modo responisbe
+
