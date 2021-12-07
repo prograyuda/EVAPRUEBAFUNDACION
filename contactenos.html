@@ -62,30 +62,28 @@
  <!--< FORMULARIO -->
  
 
-<form form name="contact" method="POST" data-netlify="true">
+<form name="contact" method="POST" data-netlify="true">
     <input type="hidden" name="form-name" value="contact">
 
     <p>Nombre</p>
-    <input type="text" class="fullname"> 
+    <input type="text" class="fullname" name="name"> 
 
     <p>Apellidos</p>
-    <input type="text" class="fullname"> 
+    <input type="text" class="fullname" name="lastname"> 
 
     <p>Email</p>
-    <input type="email" class="email"> 
+    <input type="email" class="email" name="email"> 
 
     <p>Teléfono</p>
-    <input type="tel" class="phone"> 
+    <input type="tel" class="phone" name="phone">  
 
     <div class="mensaje">
     <p>Mensaje</p>
-    <textarea class="field"></textarea> 
+    <textarea class="field" name="message"></textarea> 
 </div>
 
     <p class="center-content">
-        <button>
-            Enviar
-        </button>
+        <button type="submit">Enviar</button>
     </p>
 
 </form>
