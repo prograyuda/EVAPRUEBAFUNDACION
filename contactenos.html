@@ -72,30 +72,29 @@
      </div>
     </center>
  <!--< FORMULARIO -->
- 
+<form name="Contactos" method="POST" data-netlify="true">
+    <input type="hidden" name="form-name" value="Contactos" placeholder="" required>
 
-<form action="">
     <p>Nombre</p>
-    <input type="text" class="fullname"> 
+    <input type="text" class="fullname" name="name" placeholder="Primer Nombre" required> 
 
     <p>Apellidos</p>
-    <input type="text" class="fullname"> 
+    <input type="text" class="fullname" name="lastname" placeholder="Apellidos" required>  
 
     <p>Email</p>
-    <input type="email" class="email"> 
+    <input type="email" class="email" name="email" placeholder="ejm: example@gmail.com"required>  
 
     <p>Teléfono</p>
-    <input type="tel" class="phone"> 
+    <input type="tel" class="phone"name="phone" placeholder="ejm: 88888888"> 
 
     <div class="mensaje">
     <p>Mensaje</p>
-    <textarea class="field"></textarea> 
+    <textarea class="field" placeholder="Escirbe aqui tu mensaje para nosotros leerlo" required></textarea> 
 </div>
 
-    <p class="center-content">
-        <button>
-            Enviar
-        </button>
+   <p class="center-content">
+    <button type="submit">Enviar</button>
+     
     </p>
 
 </form>
