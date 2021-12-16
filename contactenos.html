@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/contactenos.css">
-    <title>Pruebas</title>
-
+    <link rel="stylesheet" href="styles/contactenos.css">
+    <link rel="stylesheet" href="styles/fuentes.css">
+    <title>Contéctanos</title>
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -14,53 +14,75 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 </head>
 <body>
-
-<!-- inicio de hamburger Icon -->
-
-<menu>       
-    <div class="Contenedor">
-    <div class="Paginas">
-     <div class="expander"></div>
-     <a  href="/conocenos.html">Conócenos</a>
-     <div class="All"></div>
-     <a href="/programas.html">Programas</a>
-     <div class="All"></div>
-     <a href="/servicios.html">Servicios</a>
-     <div class="All"></div>
-     <a href="/testimonios.html">Testimonios</a>
-     <div class="All"></div>
-     <a href="/donaciones.html">Donaciones</a>
-     <div class="All"></div>
-     
+<!-- al cargar la pagina -->
+<div id="contenedor_carga">
+    <div id="carga">
     </div>
-    <div class='Lineas'>
-      <span></span>
-      <span></span>
-      <span></span>
-     </div>
-   </div>
-    <!--hambuerger icon  -->
-<script src="/js/menu.js"></script>
-   </menu>
+    <center>
+    <img class="cargaimg"src="/wpimages/carga/carga.gif" alt="carga">
+</center>
+</div>
+<!-- fin al cargar la pagina -->
+     <!-- Inicio del header -->
+     <section id="franjaheader">
+        <div class="logo">	
+            <center>
+           <picture>
+               <a href="index.html">
+            <img class="logoceleste"src="/wpimages/homepage/LOGO.svg" alt="logofundaeva">
+            </picture>
+            
+        </a>
+        </section>
+           </center>
+<!-- inicio de hamburger Icon -->
+   <div class="menu-btn ">
+	<div class="menu-btn__burger" id="pause" ></div>
 
-<!-- fin del hamburger Icon -->
+  </div >
+		<!-- Navbar -->
+		<script src="js/menu.js"></script>
+		<div class="navbar">
+			<div class="container flex ">
+				<nav  class="menu-navegacion">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="conocenos.html">Conocenos</a></li>
+						<li><a href="donaciones.html">Donaciones</a></li>
+						<li><a href="programas.html">Programas</a></li>
+						<li><a href="servicios.html">Servicios</a></li>
+						<li><a href="testimonios.html">Testimonios</a></li>
+						<div class="linea"></div>
+					</ul>
 
- <!-- <header class="franja1"> -->
-    <div class="franja10">
-        <img class="conocenosf" src="/imgs/contactenos/Logotipo en fondo celeste_Mesa de trabajo 1 copia 3.svg" alt="logocelestefubdacioñnEVA">
-        </div>
+				</nav>
+
+			</div>
+	  
+		</div>
+<!-- nav barr -->
+<!-- menu -->
+
+
+  
         
         <!--<Parte de informacion -->
-        <div class="franja2">
+<section id="franja1">
+    <picture id=franja0>
+        <img class="franja0" src="/wpimages/contactenos/franja0.jpg" alt="franja1">
+        </picture>
+        <div class="franja1">
+            <center>
             <div class="textosegundo">
-      <h1 >CONTÁCTENOS</h1>
-      <h2>¿Tienes preguntas? </h2>
+      <h1><b>CONTÁCTENOS</h1>
+      <h2> <b>¿Tienes preguntas? </h2>
        <h3>Escríbenos y con gusto te brindaremos más información acerca de la</h3>
        <h4>fundación y nuestros proyectos.  </h4>
      </div>
-
+    </center>
  <!--< FORMULARIO -->
- 
+<form name="Contactos" method="POST" data-netlify="true" action="/#gracias">
+    <input id="res" type="hidden" name="form-name" value="Contactos" placeholder="" required>
 
 <form name="Contactos" method="POST" data-netlify="true">
     <input type="hidden" name="form-name" value="Contactos">
@@ -87,12 +109,118 @@
     </p>
 
 </form>
+</section>
 <!-- fin del formulario -->
-
- <!-- <header class="franja1"> -->
-    <div class="footerF">
-        <img class="conocenosf" ,alt="logocelestefubdacioñnEVAfooter">
+<!-- Footer -->
+<footer class="footer">
+    <picture>
+        <img src="/wpimages/contactenos/línea (1).svg" alt="">
+    </picture>
+    <div class="containerfooter gridfooter grid-3footer">
+        <div>
+            <h1>Fundación Enseñandote a volar alto
+            </h1>
+            <p>Copyright &copy; 2021</p>
         </div>
+        <nav>
+            <ul>
+        <li><a href="conocenos.html">Conocenos</a></li>
+                    <li><a href="contactanos.html">Conctáctenos</a></li>
+                    <li><a href="donaciones.html">Donaciones</a></li>
+                    <li><a href="programas.html">Programas</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="testimonios.html">Testimonios</a></li>
+            </ul>
+        </nav>
+        <div class="social">
+            <a href="#"><i class="fab fa-youtube fa-3x"></i></a>
+            <a href="#"><i class="fab fa-facebook fa-3x"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-3x"></i></a>
+            <a href="#"><i class="fab fa-linkedin fa-3x"></i></a>
+            <a href="#"><i class="fa fa-envelope fa-3x"></i></a>
+        </div>
+    </div>
+</footer>
+   <script src="./docs/js/menu.js"></script>   
+   
+   <section name="gracias" id="gracias">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<div id="popup-container" class="full-layer">
+    <div id="popup-content">
+<h1>¡Su mensaje fue enviado exitosamente!</h1>
+<picture>
+    <a href="index.html"><img src="/wpimages/homepage/LOGO.svg" alt="logo"></a>
+</picture>
+<center>
+<h3>¡Muchas Gracias <br>Por Escribirnos!</h3>
+</center>
+<a href="/contactenos.html"><p>←Volver</p></a>
+    </div>
+    <div id="popup-overlay" class="full-layer"></div>
+</div>
 
-   <script src="./docs/js/menu.js"></script>        
+
+<style>
+    #gracias h1,h3{
+        color: white;
+    }
+    body{
+       height:1000px;
+      background-color:gray;
+       
+     }
+    #gracias .block-scroll {
+     overflow:hidden;
+   } /* clase de manejo */
+   #gracias #popup-container {
+     display:none;
+   }
+     #gracias #popup-content {
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       background-color:var(--primary-color);
+       padding: 10px 20px;
+       z-index:1;
+   }
+   #gracias #popup-overlay{
+       background-color: rgba(0, 0, 0, 0.6);
+   }
+ .full-layer{
+       position: fixed;
+       left: 0;
+       top: 0;
+       right: 0;
+       bottom: 0;
+   }
+  #gracias button{
+       position: fixed;
+       margin-top: 200px;
+   }
+</style>
+<script>
+    $(document).ready(function(){
+        var $popContainer = $('#popup-container');
+        var $body = $('html,body');
+        $('#fire-popup').on('click', function() {
+            $popContainer.fadeIn();
+            $body.addClass('block-scroll'); // clase de manejo
+        });
+        $('#popup-overlay').on('click', function() {
+            $popContainer.fadeOut();
+            $body.removeClass('block-scroll'); // clase de manejo
+        });
+    });
+</script>
+
+</section>
+
+
+
+
+
+
+
+
     </body>

@@ -9,46 +9,9 @@
 
 /* para cargar la pagina */
 
-  #contenedor_carga{
-	background-color:rgba(248, 245, 245, 0.897);
-	height: 100%;
-	width: 100%;
-	position: fixed;
-	-webkit-transition: all  1s ease;
-	-o-transition: all  1s ease;
-	transition: all  1s ease;
-	z-index: 10000;
-}
-#carga{
-	border: 15px solid var(--colormorado);
-	border-top-color:var(--primary-color);
-	border-top-style: groove;
-	height: 100px;
-	width:  100px;
-	border-radius: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	margin: auto;
-	-webkit-animation: girar 1.5s linear infinite;
-	-o-animation: girar 1.5s linear infinite;
-	animation: girar 1.5s linear infinite;
-}
-
-/* fin para cargar la pagina */
 
   /* parte del encabezado donde esta el menu */
-  #franjaheader{
-background-color: var(--primary-color);
 
-
-  }
-#franjaheader .logo .logoceleste{
-	height:250px ;
-	width:500px; 
-}
 
 /* menu */
 .container {

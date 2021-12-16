@@ -4,66 +4,47 @@
   padding: 0;
 }
 
-/*Titulos*/
-@font-face {
-    font-family:bariol_regular-webfont;
-    src: url(/Fonts/bariol_regular-webfont.ttf);
-  }
-  
-  /*letra de boton*/
-  @font-face {
-    font-family: bariol_bold-webfont;
-    src: url(/Fonts/bariol_bold-webfont.ttf);
-  }
 
 body {
   margin: 0%;
   padding: 0%;
+  background-color: white;
 }
 
-.franja10 {
-    background-image: url("/wpimages/contactenos/contactenosheader.jpg");
-    background-size: cover;
-    background-size: cover;
-    background-size: cover;
-    height: 300px;
+.franja0 {
+    max-width: 100%;
   }
   
-  .franja10 .conocenosf {
+  /* .franja1 .conocenosf {
     height: 500px;
     width: 500px;
     margin-top: -10%;
   }
-  
-  .franja2 .textosegundo h1 {
+   */
+   #franja1{
+background-color: white;
+
+   }
+  .franja1 .textosegundo h1 {
     position:unset;
-    margin-left: 38%;
+    
     padding-top: 100px;
     padding-bottom: 5px;
     color: black;
     font-size: 40px;
-    font-family:bariol_regular-webfont;
+    font-family:bariol_bold-webfont;
   }
   
-  .franja2 .textosegundo h2 {
-    margin-left: 41%;
+  .franja1 .textosegundo h2 {
+  
     padding-top: 8px;
     padding-bottom: 5px;
     color: black;
     font-size: 22px;
     font-family:bariol_regular-webfont;
   }
-  .franja2 .textosegundo h3 {
-    margin-left: 23%;
-    padding-top: 8px;
-    padding-bottom: 5px;
-    color: black;
-    font-size: 22px;
-    font-family:bariol_regular-webfont;
-  }
-
-  .franja2 .textosegundo h4 {
-    margin-left: 37%;
+  .franja1 .textosegundo h3 {
+   
     padding-top: 8px;
     padding-bottom: 5px;
     color: black;
@@ -71,138 +52,31 @@ body {
     font-family:bariol_regular-webfont;
   }
 
-/* Inicio del hamburguer Icon */
+  .franja1 .textosegundo h4 {
 
-.Paginas a {
-    text-decoration: none;
-    display: none;
-  }
-  
-  .Lineas {
-    position: fixed;
-    z-index: 10;
-    top: 30px;
-    right: 30px;
-    margin-right: 70px;
-    width: 35px;
-    height: 25px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    cursor: pointer;
-  }
-  
-  .Lineas span {
-    height: 4px;
-    width: 100%;
-    background: white;
-    display: block;
-    border-radius: 3px;
-  }
-  
-  .Contenedor.abrir .Paginas {
-    position: fixed;
-    top: 20px;
-    right: -30px;
-    margin-right: 90px;
-    position: fixed;
-    right: 0;
-    width: 30vw;
-    height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-transition: -webkit-transform .3s ease-in-out;
-    transition: -webkit-transform .3s ease-in-out;
-    transition: transform .3s ease-in-out;
-    transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
-    border: 2px solid white;
-    width: 200px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -ms-flex-line-pack: left;
-        align-content: left;
-    text-align: center;
-    background-color: #449CAD;
-    border-radius: 5px;
-  }
-  
-  .Contenedor.abrir .Paginas a:hover {
-    background-color: gray;
-    width: 80%;
-    padding: -1px;
-    padding-left: 33px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    border-bottom: black 2px;
-    text-align: center;
-  }
-  
-  .Contenedor.abrir .Paginas .expander {
-    background-color: 7CC0A8;
-    width: 194px;
-    height: 40px;
-    border-bottom: 1px solid black;
-  }
-  
-  .Contenedor.abrir .Paginas .All {
-    background-color: 7CC0A8;
-    width: 194px;
-    border-bottom: 1px solid black;
-  }
-  
-  .Contenedor.abrir .Paginas a {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding-top: 5px;
+    padding-top: 8px;
     padding-bottom: 5px;
-    text-decoration: none;
-    font-size: 29px;
-    color: white;
-    text-align: center;
+    color: black;
+    font-size: 22px;
+    font-family:bariol_regular-webfont;
   }
-/* fin de hamburguer Icon */
-
 
   /*inicio FORMULARIO*/
 
   form {
-    background-color: white;
+
     border-radius: 3px;
     color: rgb(10, 10, 10);
     font-size: 1.5em;
     padding: 20px;
-    width: 170px;
+    
     padding-top: 80px;
     margin-left: 100px;
     font-family:bariol_regular-webfont;
   
   }
   
-  input, textarea{
+  input {
     width: 260px;
     top: 20px;
     font-size: 20px;
@@ -219,7 +93,7 @@ body {
     margin-left: 100px;
     margin-top: -3px;
     border-width: 1px;
-    width: 1000px;
+    width: 500px;
     font-family:bariol_regular-webfont;
   }
   .mensaje p{
@@ -258,33 +132,99 @@ body {
     border-color: #18A383;
   }
   
-  .center-content button{
-    margin-left: 920px;
+   form  #btnsend{
    height: 70px;
    width: 200px;
     border-radius: 35px;
     border-style: solid;
     background-color: #154360;
-    margin-top: 30px;
+    margin-top: 30px; 
     border-color: #154360;
     font-size: 20px;
     font-family: bariol_bold-webfont;
     color: white;
   }
-  
+   
   form p{
     font-size: blue;
   
   }
   
   /*FIN FORMULARIO*/
-
-
-  .footerF {
-    background-image: url("/wpimages/contactenos/footer1\ \(1\).jpg");
-    background-size: cover;
-    background-size: cover;
-    background-size: cover;
-    height: 300px;
-    padding-top: 20px;
+  /* footer */
+  footer picture .img{
+    max-width:100%;
   }
+
+/* fin de footer */
+
+  
+/* responsive */
+@media (min-width:1024px) and (max-width:1440px){
+  
+  form .center-content #btnsend{
+    width:50%;
+    height:50%;
+
+  }
+
+
+ .mensaje .field{
+  width: 450px;
+    
+  
+  
+  } 
+
+
+
+
+
+
+
+}
+
+@media(max-width:768px) {
+
+
+  .mensaje .field{
+  width: 270px;
+    
+  
+  
+  }
+
+}
+
+@media(max-width: 500px){
+
+
+  .mensaje .field{
+    width: 200px;
+      
+    
+    
+    }
+  #res{
+    width:200px;
+    margin-left: -30px;
+  }
+form p{
+  margin-left: -100px;
+}
+
+form #btnsend{
+  height: 70px;
+   width: 150px;
+    border-radius: 35px;
+    border-style: solid;
+ 
+}
+
+
+}
+
+
+
+
+/* fin del responsive */
