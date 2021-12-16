@@ -14,7 +14,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 </head>
 <body>
-
+<!-- al cargar la pagina -->
+<div id="contenedor_carga">
+    <div id="carga">
+    </div>
+    <center>
+    <img class="cargaimg"src="/wpimages/carga/carga.gif" alt="carga">
+</center>
+</div>
+<!-- fin al cargar la pagina -->
      <!-- Inicio del header -->
      <section id="franjaheader">
         <div class="logo">	
@@ -25,6 +33,7 @@
             </picture>
             
         </a>
+        </section>
            </center>
 <!-- inicio de hamburger Icon -->
    <div class="menu-btn ">
@@ -37,8 +46,8 @@
 			<div class="container flex ">
 				<nav  class="menu-navegacion">
 					<ul>
+						<li><a href="index.html">Home</a></li>
 						<li><a href="conocenos.html">Conocenos</a></li>
-						<li><a href="contactenos.html">Conctáctenos</a></li>
 						<li><a href="donaciones.html">Donaciones</a></li>
 						<li><a href="programas.html">Programas</a></li>
 						<li><a href="servicios.html">Servicios</a></li>
@@ -72,30 +81,31 @@
      </div>
     </center>
  <!--< FORMULARIO -->
-<form name="Contactos" method="POST" data-netlify="true">
-    <input type="hidden" name="form-name" value="Contactos" placeholder="" required>
+<form name="Contactos" method="POST" data-netlify="true" action="/#gracias">
+    <input id="res" type="hidden" name="form-name" value="Contactos" placeholder="" required>
 
     <p>Nombre</p>
-    <input type="text" class="fullname" name="name" placeholder="Primer Nombre" required> 
+    <input id="res" type="text" class="fullname" name="name" placeholder="Primer Nombre" required> 
 
     <p>Apellidos</p>
-    <input type="text" class="fullname" name="lastname" placeholder="Apellidos" required>  
+    <input id="res" type="text" class="fullname" name="lastname" placeholder="Apellidos" required>  
 
     <p>Email</p>
-    <input type="email" class="email" name="email" placeholder="ejm: example@gmail.com"required>  
+    <input id="res" type="email" class="email" name="email" placeholder="ejm: example@gmail.com"required>  
 
     <p>Teléfono</p>
-    <input type="tel" class="phone"name="phone" placeholder="ejm: 88888888"> 
+    <input id="res" type="tel" class="phone"name="phone" placeholder="ejm: 88888888"> 
 
     <div class="mensaje">
     <p>Mensaje</p>
-    <textarea class="field" placeholder="Escirbe aqui tu mensaje para nosotros leerlo" required></textarea> 
+    <textarea id="res" class="field" placeholder="Escirbe aqui tu mensaje para nosotros" required></textarea> 
 </div>
 
-   <p class="center-content">
-    <button type="submit">Enviar</button>
-     
-    </p>
+
+       <center>
+    <p><button id="btnsend" type="submit">Enviar</button></p>
+</center>    
+
 
 </form>
 </section>
@@ -130,7 +140,86 @@
         </div>
     </div>
 </footer>
-<!-- fin del footer -->
+   <script src="./docs/js/menu.js"></script>   
+   
+   <section name="gracias" id="gracias">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<div id="popup-container" class="full-layer">
+    <div id="popup-content">
+<h1>¡Su mensaje fue enviado exitosamente!</h1>
+<picture>
+    <a href="index.html"><img src="/wpimages/homepage/LOGO.svg" alt="logo"></a>
+</picture>
+<center>
+<h3>¡Muchas Gracias <br>Por Escribirnos!</h3>
+</center>
+<a href="/contactenos.html"><p>←Volver</p></a>
+    </div>
+    <div id="popup-overlay" class="full-layer"></div>
+</div>
 
-   <script src="./docs/js/menu.js"></script>        
+
+<style>
+    #gracias h1,h3{
+        color: white;
+    }
+    body{
+       height:1000px;
+      background-color:gray;
+       
+     }
+    #gracias .block-scroll {
+     overflow:hidden;
+   } /* clase de manejo */
+   #gracias #popup-container {
+     display:none;
+   }
+     #gracias #popup-content {
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       background-color:var(--primary-color);
+       padding: 10px 20px;
+       z-index:1;
+   }
+   #gracias #popup-overlay{
+       background-color: rgba(0, 0, 0, 0.6);
+   }
+ .full-layer{
+       position: fixed;
+       left: 0;
+       top: 0;
+       right: 0;
+       bottom: 0;
+   }
+  #gracias button{
+       position: fixed;
+       margin-top: 200px;
+   }
+</style>
+<script>
+    $(document).ready(function(){
+        var $popContainer = $('#popup-container');
+        var $body = $('html,body');
+        $('#fire-popup').on('click', function() {
+            $popContainer.fadeIn();
+            $body.addClass('block-scroll'); // clase de manejo
+        });
+        $('#popup-overlay').on('click', function() {
+            $popContainer.fadeOut();
+            $body.removeClass('block-scroll'); // clase de manejo
+        });
+    });
+</script>
+
+</section>
+
+
+
+
+
+
+
+
     </body>
