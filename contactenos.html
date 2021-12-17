@@ -84,29 +84,28 @@
 <form name="Contactos" method="POST" data-netlify="true" action="/#gracias">
     <input id="res" type="hidden" name="form-name" value="Contactos" placeholder="" required>
 
-<form name="Contactos" method="POST" data-netlify="true">
-    <input type="hidden" name="form-name" value="Contactos">
-
     <p>Nombre</p>
-    <input type="text" class="fullname" name="name"> 
+    <input id="res" type="text" class="fullname" name="name" placeholder="Primer Nombre" required> 
 
     <p>Apellidos</p>
-    <input type="text" class="fullname" name="lastname"> 
+    <input id="res" type="text" class="fullname" name="lastname" placeholder="Apellidos" required>  
 
     <p>Email</p>
-    <input type="email" class="email" name="email"> 
+    <input id="res" type="email" class="email" name="email" placeholder="ejm: example@gmail.com"required>  
 
     <p>Teléfono</p>
-    <input type="tel" class="phone" name="phone">  
+    <input id="res" type="tel" class="phone"name="phone" placeholder="ejm: 88888888"> 
 
     <div class="mensaje">
     <p>Mensaje</p>
-    <textarea class="field" name="message"></textarea> 
+    <textarea id="res" class="field" placeholder="Escirbe aqui tu mensaje para nosotros" required></textarea> 
 </div>
 
-    <p class="center-content">
-        <button type="submit">Enviar</button>
-    </p>
+
+       <center>
+    <p><button id="btnsend" type="submit">Enviar</button></p>
+</center>    
+
 
 </form>
 </section>
