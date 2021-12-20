@@ -81,7 +81,7 @@
      </div>
     </center>
  <!--< FORMULARIO -->
-<form name="Contactos" method="POST" data-netlify="true" action="/#gracias">
+<form name="Contactos" method="POST" data-netlify="true" action="/gracias.html">
     <input id="res" type="hidden" name="form-name" value="Contactos" placeholder="" required>
 
     <p>Nombre</p>
@@ -142,78 +142,7 @@
 </footer>
    <script src="./docs/js/menu.js"></script>   
    
-   <section name="gracias" id="gracias">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<div id="popup-container" class="full-layer">
-    <div id="popup-content">
-<h1>¡Su mensaje fue enviado exitosamente!</h1>
-<picture>
-    <a href="index.html"><img src="/wpimages/homepage/LOGO.svg" alt="logo"></a>
-</picture>
-<center>
-<h3>¡Muchas Gracias <br>Por Escribirnos!</h3>
-</center>
-<a href="/contactenos.html"><p>←Volver</p></a>
-    </div>
-    <div id="popup-overlay" class="full-layer"></div>
-</div>
-
-
-<style>
-    #gracias h1,h3{
-        color: white;
-    }
-    body{
-       height:1000px;
-      background-color:gray;
-       
-     }
-    #gracias .block-scroll {
-     overflow:hidden;
-   } /* clase de manejo */
-   #gracias #popup-container {
-     display:none;
-   }
-     #gracias #popup-content {
-       position: absolute;
-       top: 50%;
-       left: 50%;
-       transform: translate(-50%, -50%);
-       background-color:var(--primary-color);
-       padding: 10px 20px;
-       z-index:1;
-   }
-   #gracias #popup-overlay{
-       background-color: rgba(0, 0, 0, 0.6);
-   }
- .full-layer{
-       position: fixed;
-       left: 0;
-       top: 0;
-       right: 0;
-       bottom: 0;
-   }
-  #gracias button{
-       position: fixed;
-       margin-top: 200px;
-   }
-</style>
-<script>
-    $(document).ready(function(){
-        var $popContainer = $('#popup-container');
-        var $body = $('html,body');
-        $('#fire-popup').on('click', function() {
-            $popContainer.fadeIn();
-            $body.addClass('block-scroll'); // clase de manejo
-        });
-        $('#popup-overlay').on('click', function() {
-            $popContainer.fadeOut();
-            $body.removeClass('block-scroll'); // clase de manejo
-        });
-    });
-</script>
-
-</section>
+  
 
 
 
