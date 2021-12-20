@@ -422,8 +422,20 @@ margin-top: 16px;
   margin-top: -200px;
 margin-right: 30px;
 } 
-
-
-
     /* fin del hamburger icon */
+ /* logo de carga */
+
+ #contenedor_carga img{
+  height: 250px;
+  align-items: center;
+  margin-top: 500px;
+  }
+  
+
+
+
+
+ /*fin logo de carga  */
+ 
+ 
   }
